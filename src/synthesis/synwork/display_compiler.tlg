@@ -1,0 +1,66 @@
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":29:7:29:13|Synthesizing work.display.def_arch 
+@N: CD231 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":55:12:55:13|Using onehot encoding for type statet (waitfordraw="100000")
+@W: CG296 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":192:0:192:6|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":203:7:203:10|Referenced variable draw is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":262:8:262:17|Referenced variable busy_burst is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":228:7:228:15|Referenced variable busy_byte is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":246:24:246:32|Referenced variable bytecount is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":246:7:246:13|Referenced variable burstno is not in sensitivity list
+@W: CD609 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":284:25:284:41|Index value 1 to 200 could be out of prefix range 1 to 20 
+@W: CD609 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":285:25:285:41|Index value 1 to 200 could be out of prefix range 1 to 4 
+@W: CD609 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":291:25:291:41|Index value 1 to 200 could be out of prefix range 1 to 4 
+@W: CD609 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":297:25:297:41|Index value 1 to 200 could be out of prefix range 1 to 2 
+@W: CD604 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":298:3:298:16|OTHERS clause is not synthesized 
+@W: CG296 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":278:0:278:6|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":289:18:289:21|Referenced variable data is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":284:32:284:40|Referenced variable bytecount is not in sensitivity list
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":35:7:35:9|Synthesizing work.i2c.i2c_def 
+@N: CD231 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":59:13:59:14|Using onehot encoding for type state_t (idle="1000000000000000000000")
+@N: CD364 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":105:5:105:11|Removed redundant assignment
+@N: CD364 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":114:5:114:11|Removed redundant assignment
+@W: CG296 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":129:0:129:6|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":214:9:214:18|Referenced variable read_write is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":277:14:277:20|Referenced variable databit is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":176:14:176:20|Referenced variable addrbit is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":139:5:139:7|Referenced variable ena is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":277:9:277:12|Referenced variable data is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":176:9:176:12|Referenced variable addr is not in sensitivity list
+Post processing for work.i2c.i2c_def
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":87:1:87:2|Feedback mux created for signal databit[2:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":87:1:87:2|Feedback mux created for signal addrbit[2:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":87:1:87:2|Feedback mux created for signal counter[6:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+Post processing for work.display.def_arch
+@N: CL201 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":87:1:87:2|Trying to extract state machine for register state
+Extracted state machine for register state
+State machine has 22 reachable states with original encodings of:
+   0000000000000000000001
+   0000000000000000000010
+   0000000000000000000100
+   0000000000000000001000
+   0000000000000000010000
+   0000000000000000100000
+   0000000000000001000000
+   0000000000000010000000
+   0000000000000100000000
+   0000000000001000000000
+   0000000000010000000000
+   0000000000100000000000
+   0000000001000000000000
+   0000000010000000000000
+   0000000100000000000000
+   0000001000000000000000
+   0000010000000000000000
+   0000100000000000000000
+   0001000000000000000000
+   0010000000000000000000
+   0100000000000000000000
+   1000000000000000000000
+@N: CL201 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":156:1:156:2|Trying to extract state machine for register state
+Extracted state machine for register state
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000

@@ -1,0 +1,12 @@
+@N|Running in 32-bit mode
+@N: CD720 :"C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":29:7:29:13|Top entity is set to display.
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":29:7:29:13|Synthesizing work.display.def_arch 
+@N: CD231 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":55:12:55:13|Using onehot encoding for type statet (waitfordraw="100000")
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":35:7:35:9|Synthesizing work.i2c.i2c_def 
+@N: CD231 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":59:13:59:14|Using onehot encoding for type state_t (idle="1000000000000000000000")
+@N: CD364 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":105:5:105:11|Removed redundant assignment
+@N: CD364 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":114:5:114:11|Removed redundant assignment
+@N: CL201 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":87:1:87:2|Trying to extract state machine for register state
+@N: CL201 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":156:1:156:2|Trying to extract state machine for register state
+

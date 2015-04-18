@@ -1,0 +1,2 @@
+CKID0001:@|S:char_rom0.data_1_sqmuxa@|E:column_0[1]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001
+CKID0002:@|S:clk@|E:curpos_0[4]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002

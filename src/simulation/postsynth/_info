@@ -1,0 +1,172 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Aaron\Desktop\fpga2\FPGA\simulation
+Edisplay
+Z1 w1381075221
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Aaron\Desktop\fpga2\FPGA\simulation
+Z5 8C:/Users/Aaron/Desktop/fpga2/FPGA/synthesis/display.vhd
+Z6 FC:/Users/Aaron/Desktop/fpga2/FPGA/synthesis/display.vhd
+l0
+L934
+VA[Q@QmzO5Dgd?;2SKP6z01
+Z7 OW;C;10.1c;51
+31
+Z8 !s108 1381076268.394000
+Z9 !s90 -reportprogress|300|-93|-explicit|-work|postsynth|C:/Users/Aaron/Desktop/fpga2/FPGA/synthesis/display.vhd|
+Z10 !s107 C:/Users/Aaron/Desktop/fpga2/FPGA/synthesis/display.vhd|
+Z11 o-93 -explicit -work postsynth -O0
+!s100 <D;H^7TGDc9MnW_gJ^N]O1
+!i10b 1
+Adef_arch
+Z12 DEx4 work 3 i2c 0 22 `CHNCHM]??`RVg`kIEB;21
+R2
+R3
+DEx4 work 7 display 0 22 A[Q@QmzO5Dgd?;2SKP6z01
+l1438
+L949
+V:i<h>TA:B19TDonS>:Ph13
+!s100 F6H1ebNP2_WR^4@7>AIl;1
+R7
+31
+R8
+R9
+R10
+R11
+!i10b 1
+Edisplay_tb
+Z13 w1381075984
+R2
+R3
+R4
+Z14 8C:/Users/Aaron/Desktop/fpga2/FPGA/stimulus/display_tb.vhd
+Z15 FC:/Users/Aaron/Desktop/fpga2/FPGA/stimulus/display_tb.vhd
+l0
+L32
+VcG6KXSQ70imJ66CFQ^R7e0
+!s100 VdZ@;QQP`VFk=[_nnfaAG0
+R7
+31
+!i10b 1
+Z16 !s108 1381076269.090000
+Z17 !s90 -reportprogress|300|-93|-explicit|-work|postsynth|C:/Users/Aaron/Desktop/fpga2/FPGA/stimulus/display_tb.vhd|
+Z18 !s107 C:/Users/Aaron/Desktop/fpga2/FPGA/stimulus/display_tb.vhd|
+R11
+Abehavioral
+R2
+R3
+Z19 DEx4 work 10 display_tb 0 22 cG6KXSQ70imJ66CFQ^R7e0
+l64
+L35
+Z20 VJZaPJmN]ZShTCm;[HP=GD3
+Z21 !s100 zZPUGZ37YeB8F3L?DcoA91
+R7
+31
+!i10b 1
+R16
+R17
+R18
+R11
+Ei2c
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L8
+V`CHNCHM]??`RVg`kIEB;21
+R7
+31
+R8
+R9
+R10
+R11
+!s100 0nBRiXlAgi>AKAlfWHD8D1
+!i10b 1
+Adef_arch
+R2
+R3
+R12
+l355
+L53
+VmYbdoIh020<NFIj=:jf^`2
+!s100 J@ERdmhBGOHa4Y6Y4kXNa3
+R7
+31
+R8
+R9
+R10
+R11
+!i10b 1
+Etest
+Z22 w1379642830
+R2
+R3
+R4
+Z23 8C:/Users/Aaron/Desktop/fpga2/FPGA/stimulus/test.vhd
+Z24 FC:/Users/Aaron/Desktop/fpga2/FPGA/stimulus/test.vhd
+l0
+L32
+ViHa_Qc6N2>z`P8n5X;5EW0
+R7
+31
+Z25 !s108 1379725840.992000
+Z26 !s90 -reportprogress|300|-93|-explicit|-work|postsynth|C:/Users/Aaron/Desktop/fpga2/FPGA/stimulus/test.vhd|
+Z27 !s107 C:/Users/Aaron/Desktop/fpga2/FPGA/stimulus/test.vhd|
+R11
+!s100 QD[`VDe@JQ6M1MfZ=_OCm1
+!i10b 1
+Abehavioral
+R2
+R3
+DEx4 work 4 test 0 22 iHa_Qc6N2>z`P8n5X;5EW0
+l64
+L35
+VF]4W`1VLhW8Ln9VF8M_lS2
+R7
+31
+R25
+R26
+R27
+R11
+!s100 QF;lWc@B2U?]ZG39?oBX;3
+!i10b 1
+Etop
+Z28 w1379725395
+R2
+R3
+R4
+Z29 8C:/Users/Aaron/Desktop/fpga2/FPGA/synthesis/top.vhd
+Z30 FC:/Users/Aaron/Desktop/fpga2/FPGA/synthesis/top.vhd
+l0
+L1795
+VJV6_[3>9ZM01f5S^A:KYI2
+R7
+31
+Z31 !s108 1379725840.377000
+Z32 !s90 -reportprogress|300|-93|-explicit|-work|postsynth|C:/Users/Aaron/Desktop/fpga2/FPGA/synthesis/top.vhd|
+Z33 !s107 C:/Users/Aaron/Desktop/fpga2/FPGA/synthesis/top.vhd|
+R11
+!s100 BYWW2SLE=ZIGBzbmONENi3
+!i10b 1
+Adef_arch
+DEx4 work 3 i2c 0 22 k=nMzT58EJIAlMCkZ80^g2
+R2
+R3
+DEx4 work 3 top 0 22 JV6_[3>9ZM01f5S^A:KYI2
+l2244
+L1811
+V7iYmceQ^_D3YGbhbA2NC>1
+R7
+31
+R31
+R32
+R33
+R11
+!s100 ;cdL4<QMiLn[T@cFK`DBm2
+!i10b 1

@@ -1,0 +1,22 @@
+@W: CG296 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":192:0:192:6|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":203:7:203:10|Referenced variable draw is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":262:8:262:17|Referenced variable busy_burst is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":228:7:228:15|Referenced variable busy_byte is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":246:24:246:32|Referenced variable bytecount is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":246:7:246:13|Referenced variable burstno is not in sensitivity list
+@W: CD609 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":284:25:284:41|Index value 1 to 200 could be out of prefix range 1 to 20 
+@W: CD609 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":285:25:285:41|Index value 1 to 200 could be out of prefix range 1 to 4 
+@W: CD609 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":291:25:291:41|Index value 1 to 200 could be out of prefix range 1 to 4 
+@W: CD609 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":297:25:297:41|Index value 1 to 200 could be out of prefix range 1 to 2 
+@W: CD604 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":298:3:298:16|OTHERS clause is not synthesized 
+@W: CG296 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":278:0:278:6|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":289:18:289:21|Referenced variable data is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":284:32:284:40|Referenced variable bytecount is not in sensitivity list
+@W: CG296 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":129:0:129:6|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":214:9:214:18|Referenced variable read_write is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":277:14:277:20|Referenced variable databit is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":176:14:176:20|Referenced variable addrbit is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":139:5:139:7|Referenced variable ena is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":277:9:277:12|Referenced variable data is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":176:9:176:12|Referenced variable addr is not in sensitivity list
+

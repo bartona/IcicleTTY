@@ -1,0 +1,102 @@
+Actel Designer Software
+Version: 11.0.0.23
+Release: v11.0
+
+Info: The design top.adb was last modified by software version 11.0.0.23.
+Opened an existing Libero design top.adb.
+'BA_NAME' set to 'top_ba'
+'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
+'IDE_DESIGNERVIEW_COUNT' set to '1'
+'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
+'IDE_DESIGNERVIEW_REVNUM0' set to '1'
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'C:\Users\Aaron\Desktop\fpga2\FPGA\designer'
+'IDE_DESIGNERVIEW_LASTREV' set to '1'
+While analyzing gated clock network, ambiguities have been found on gates
+display0/address_RNI9DH1[3]:Y, un15_curpos_I_5:Y, char_rom0/data4_3:Y, un15_curpos_I_7:Y,
+display0/address_RNIMEN1[5]:Y, display0/address_RNIUGQ1[6]:Y, un15_curpos_I_12:Y,
+char_rom0/data4_1:Y.
+The timing models of these gates have been simplified for Static Timing Analysis.
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Sun Oct 06 21:59:19 2013
+
+Placer Finished: Sun Oct 06 22:00:10 2013
+Total Placer CPU Time:     00:00:51
+
+                        o - o - o - o - o - o
+
+While analyzing gated clock network, ambiguities have been found on gates
+display0/address_RNI9DH1[3]:Y, un15_curpos_I_5:Y, char_rom0/data4_3:Y, un15_curpos_I_7:Y,
+display0/address_RNIMEN1[5]:Y, display0/address_RNIUGQ1[6]:Y, un15_curpos_I_12:Y,
+char_rom0/data4_1:Y.
+The timing models of these gates have been simplified for Static Timing Analysis.
+
+Timing-driven Router 
+Design: top                             Started: Sun Oct 06 22:00:21 2013
+
+While analyzing gated clock network, ambiguities have been found on gates
+display0/address_RNI9DH1[3]:Y, un15_curpos_I_5:Y, char_rom0/data4_3:Y, un15_curpos_I_7:Y,
+display0/address_RNIMEN1[5]:Y, display0/address_RNIUGQ1[6]:Y, un15_curpos_I_12:Y,
+char_rom0/data4_1:Y.
+The timing models of these gates have been simplified for Static Timing Analysis.
+ 
+While analyzing gated clock network, ambiguities have been found on gates
+display0/address_RNI9DH1[3]:Y, un15_curpos_I_5:Y, char_rom0/data4_3:Y, un15_curpos_I_7:Y,
+display0/address_RNIMEN1[5]:Y, display0/address_RNIUGQ1[6]:Y, un15_curpos_I_12:Y,
+char_rom0/data4_1:Y.
+The timing models of these gates have been simplified for Static Timing Analysis.
+Iterative improvement...
+
+Timing-driven Router completed successfully.
+
+Design: top                             
+Finished: Sun Oct 06 22:00:46 2013
+Total CPU Time:     00:00:24            Total Elapsed Time: 00:00:25
+Total Memory Usage: 142.6 Mbytes
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+While analyzing gated clock network, ambiguities have been found on gates
+display0/address_RNI9DH1[3]:Y, un15_curpos_I_5:Y, char_rom0/data4_3:Y, un15_curpos_I_7:Y,
+display0/address_RNIMEN1[5]:Y, display0/address_RNIUGQ1[6]:Y, un15_curpos_I_12:Y,
+char_rom0/data4_1:Y.
+The timing models of these gates have been simplified for Static Timing Analysis.
+Finished loading the Timing data.
+
+The Layout command succeeded ( 00:01:46 )
+Wrote status report to file: top_place_and_route_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote globalnet report to file: top_globalnet_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote globalusage report to file: top_globalusage_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote iobank report to file: top_iobank_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Design saved to file C:\Users\Aaron\Desktop\fpga2\FPGA\designer\impl1\top.adb.
+
+The Execute Script command succeeded ( 00:01:49 )
+Design closed.
+

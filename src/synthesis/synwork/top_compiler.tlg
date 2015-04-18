@@ -1,0 +1,214 @@
+@N: CD231 :"C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\lib\vhd2008\std1164.vhd":913:16:913:17|Using onehot encoding for type mvl9plus ('U'="1000000000")
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":34:7:34:9|Synthesizing work.top.top1 
+@N: CD231 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":77:12:77:13|Using onehot encoding for type statet (onreset="100000")
+@W: CD434 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":327:8:327:10|Signal clk in the sensitivity list is not used in the process
+@W: CD434 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":327:13:327:17|Signal reset in the sensitivity list is not used in the process
+@W: CG296 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":327:0:327:6|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":355:8:355:13|Referenced variable redraw is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":329:6:329:10|Referenced variable state is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":353:5:353:9|Referenced variable rxrdy is not in sensitivity list
+@W: CD434 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":395:16:395:20|Signal reset in the sensitivity list is not used in the process
+@W: CG296 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":395:0:395:6|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":400:30:400:35|Referenced variable curpos is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":400:49:400:51|Referenced variable led is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":405:11:405:19|Referenced variable char_data is not in sensitivity list
+@W: CD796 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":147:7:147:14|Bit 1 of signal led_edge is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD638 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":152:7:152:11|Signal clear is undriven 
+@W: CD638 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":155:7:155:9|Signal pos is undriven 
+@W: CD638 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":165:7:165:9|Signal csn is undriven 
+@W: CD638 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":174:7:174:10|Signal msgc is undriven 
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart.vhd":20:7:20:10|Synthesizing work.uart.rtl 
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":16:7:16:26|Synthesizing coreuart_lib.uart_uart_0_coreuart.cuarti1 
+@W: CD434 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":245:18:245:25|Signal cuartl1i in the sensitivity list is not used in the process
+@W: CD434 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":245:27:245:34|Signal cuartii1 in the sensitivity list is not used in the process
+@W: CD604 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":357:0:357:13|OTHERS clause is not synthesized 
+@N: CD364 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":395:0:395:7|Removed redundant assignment
+@W: CD638 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Signal cuartl1l is undriven 
+@W: CD638 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Signal cuarto1i is undriven 
+@W: CD638 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":144:7:144:14|Signal cuartoo0 is undriven 
+@W: CD638 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":146:7:146:14|Signal cuartlo0 is undriven 
+@W: CD638 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":154:7:154:14|Signal cuartll0 is undriven 
+@W: CD638 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":156:7:156:14|Signal cuartil0 is undriven 
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":16:7:16:26|Synthesizing coreuart_lib.uart_uart_0_rx_async.cuarti1 
+@N: CD233 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":41:15:41:16|Using sequential encoding for type cuartoiii
+@N: CD364 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":182:0:182:8|Removed redundant assignment
+@W: CD604 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":235:0:235:13|OTHERS clause is not synthesized 
+@W: CD604 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":313:0:313:13|OTHERS clause is not synthesized 
+Post processing for coreuart_lib.uart_uart_0_rx_async.cuarti1
+@N: CL177 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":325:0:325:1|Sharing sequential element CUARTL10I.
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":16:7:16:26|Synthesizing coreuart_lib.uart_uart_0_tx_async.cuarti1 
+@N: CD364 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":228:0:228:8|Removed redundant assignment
+Post processing for coreuart_lib.uart_uart_0_tx_async.cuarti1
+@W: CL190 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":105:0:105:1|Optimizing register bit CUARTIIO0 to a constant 1
+@W: CL169 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":105:0:105:1|Pruning register CUARTIIO0  
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd":16:7:16:27|Synthesizing coreuart_lib.uart_uart_0_clock_gen.cuarti 
+@W: CD638 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd":35:7:35:13|Signal cuartli is undriven 
+Post processing for coreuart_lib.uart_uart_0_clock_gen.cuarti
+Post processing for coreuart_lib.uart_uart_0_coreuart.cuarti1
+@W: CL240 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":156:7:156:14|CUARTIL0 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":154:7:154:14|CUARTLL0 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":146:7:146:14|CUARTlo0 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":144:7:144:14|CUARToo0 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 0 of signal CUARTO1i is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 1 of signal CUARTO1i is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 2 of signal CUARTO1i is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 3 of signal CUARTO1i is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 4 of signal CUARTO1i is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 5 of signal CUARTO1i is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 6 of signal CUARTO1i is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 7 of signal CUARTO1i is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 0 of signal CUARTL1L is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 1 of signal CUARTL1L is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 2 of signal CUARTL1L is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 3 of signal CUARTL1L is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 4 of signal CUARTL1L is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 5 of signal CUARTL1L is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 6 of signal CUARTL1L is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 7 of signal CUARTL1L is floating -- simulation mismatch possible.
+@W: CL169 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":387:0:387:1|Pruning register CUARTl10  
+@W: CL169 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":373:0:373:1|Pruning register CUARTI11  
+@W: CL169 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":363:0:363:1|Pruning register CUARTL1I(7 downto 0)  
+@W: CL169 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":333:0:333:1|Pruning register CUARToool(1 downto 0)  
+@W: CL169 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":323:0:323:1|Pruning register CUARTO00  
+@W: CL169 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":323:0:323:1|Pruning register CUARTL00  
+@W: CL169 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":313:0:313:1|Pruning register CUARToi0  
+@W: CL169 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":313:0:313:1|Pruning register CUARTLI0  
+@W: CL169 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":231:0:231:1|Pruning register CUARTol0  
+@W: CL245 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 0 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 1 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 2 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 3 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 4 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 5 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 6 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 7 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL167 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Input cuarti1l of instance CUARTIIOL is floating
+@W: CL167 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Input cuartooi of instance CUARTIIOL is floating
+Post processing for work.uart.rtl
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\char_rom.vhd":25:7:25:14|Synthesizing work.char_rom.def_arch 
+Post processing for work.char_rom.def_arch
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":29:7:29:13|Synthesizing work.display.def_arch 
+@N: CD231 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":55:12:55:13|Using onehot encoding for type statet (waitfordraw="100000")
+@W: CG296 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":192:0:192:6|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":246:24:246:32|Referenced variable bytecount is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":246:7:246:13|Referenced variable burstno is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":203:7:203:10|Referenced variable draw is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":262:8:262:17|Referenced variable busy_burst is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":228:7:228:15|Referenced variable busy_byte is not in sensitivity list
+@W: CD609 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":284:25:284:41|Index value 1 to 200 could be out of prefix range 1 to 20 
+@W: CD609 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":285:25:285:41|Index value 1 to 200 could be out of prefix range 1 to 4 
+@W: CD609 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":291:25:291:41|Index value 1 to 200 could be out of prefix range 1 to 4 
+@W: CD609 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":297:25:297:41|Index value 1 to 200 could be out of prefix range 1 to 2 
+@W: CD604 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":298:3:298:16|OTHERS clause is not synthesized 
+@W: CG296 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":278:0:278:6|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":284:32:284:40|Referenced variable bytecount is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":289:18:289:21|Referenced variable data is not in sensitivity list
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":35:7:35:9|Synthesizing work.i2c.i2c_def 
+@N: CD231 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":59:13:59:14|Using onehot encoding for type state_t (idle="1000000000000000000000")
+@W: CD274 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":101:4:101:7|Incomplete case statement - add more cases or a when others
+@N: CD364 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":189:3:189:9|Removed redundant assignment
+@N: CD364 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":202:3:202:9|Removed redundant assignment
+@W: CG296 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":213:0:213:6|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":340:9:340:12|Referenced variable data is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":255:9:255:12|Referenced variable addr is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":286:9:286:18|Referenced variable read_write is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":340:14:340:20|Referenced variable databit is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":255:14:255:20|Referenced variable addrbit is not in sensitivity list
+Post processing for work.i2c.i2c_def
+Post processing for work.display.def_arch
+Post processing for work.top.top1
+@W: CL240 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":38:1:38:2|D2 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL169 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Pruning register sw1edge_2(2 downto 1)  
+@W: CL169 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":231:32:231:32|Pruning register led_edge(0)  
+@W: CL117 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":399:1:399:2|Latch generated from process for signal char(7 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":399:1:399:2|Latch generated from process for signal column(2 downto 0); possible missing assignment in an if or case statement.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal curpos[4:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_24[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_23[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_22[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_21[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_20[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_19[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_18[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_17[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_16[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_15[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_14[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_13[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_12[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_11[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_10[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_9[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_8[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_7[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_6[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_5[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_4[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_3[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_2[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_1[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal redraw -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@N: CL201 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":88:1:88:2|Trying to extract state machine for register state
+Extracted state machine for register state
+State machine has 22 reachable states with original encodings of:
+   0000000000000000000001
+   0000000000000000000010
+   0000000000000000000100
+   0000000000000000001000
+   0000000000000000010000
+   0000000000000000100000
+   0000000000000001000000
+   0000000000000010000000
+   0000000000000100000000
+   0000000000001000000000
+   0000000000010000000000
+   0000000000100000000000
+   0000000001000000000000
+   0000000010000000000000
+   0000000100000000000000
+   0000001000000000000000
+   0000010000000000000000
+   0000100000000000000000
+   0001000000000000000000
+   0010000000000000000000
+   0100000000000000000000
+   1000000000000000000000
+@N: CL201 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":156:1:156:2|Trying to extract state machine for register state
+Extracted state machine for register state
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000
+@W: CL159 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd":20:0:20:16|Input bAUD_VAL_FRACtion is unused
+@N: CL201 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":105:0:105:1|Trying to extract state machine for register CUARTolo0
+Extracted state machine for register CUARTolo0
+State machine has 6 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+   00000000000000000000000000000011
+   00000000000000000000000000000100
+   00000000000000000000000000000101
+@W: CL159 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":22:0:22:7|Input CUARTL1L is unused
+@W: CL159 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":23:0:23:7|Input CUARTI1L is unused
+@W: CL159 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":24:0:24:7|Input CUARTooi is unused
+@N: CL201 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":196:0:196:1|Trying to extract state machine for register CUARToool
+Extracted state machine for register CUARToool
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@N: CL201 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Trying to extract state machine for register state
+Extracted state machine for register state
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000
+@W: CL159 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":45:1:45:3|Input sw1 is unused
+@W: CL159 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":46:4:46:6|Input SW5 is unused

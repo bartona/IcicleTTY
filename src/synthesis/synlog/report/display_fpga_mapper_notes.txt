@@ -1,0 +1,10 @@
+@N: MF249 |Running in 32-bit mode.
+@N: MF667 |Clock conversion disabled 
+@N: MO106 :"c:\users\aaron\desktop\fpga2\fpga\hdl\display.vhd":284:25:284:30|Found ROM, 'data_i2c_1[7:0]', 20 words by 8 bits 
+@N: MF238 :"c:\users\aaron\desktop\fpga2\fpga\hdl\i2c.vhd":95:14:95:26|Found 7-bit incrementor, 'un4_counter_1[6:0]'
+@N: FP130 |Promoting Net clk_c on CLKBUF  clk_pad 
+@N: FP130 |Promoting Net reset_c_c on CLKINT  I_209 
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.

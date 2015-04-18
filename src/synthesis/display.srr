@@ -1,0 +1,688 @@
+#Build: Synplify Pro G-2012.09M-SP1 , Build 013R, Feb 15 2013
+#install: C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1
+#OS:  5.2
+#Hostname: Y1
+
+#Implementation: synthesis
+
+$ Start of Compile
+#Sun Oct 06 11:59:32 2013
+
+Synopsys VHDL Compiler, version comp201209rcp1, Build 245R, built Feb 20 2013
+@N|Running in 32-bit mode
+Copyright (C) 1994-2012 Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+
+@N: CD720 :"C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":29:7:29:13|Top entity is set to display.
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":29:7:29:13|Synthesizing work.display.def_arch 
+@N: CD231 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":55:12:55:13|Using onehot encoding for type statet (waitfordraw="100000")
+@W: CG296 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":192:0:192:6|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":203:7:203:10|Referenced variable draw is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":262:8:262:17|Referenced variable busy_burst is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":228:7:228:15|Referenced variable busy_byte is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":246:24:246:32|Referenced variable bytecount is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":246:7:246:13|Referenced variable burstno is not in sensitivity list
+@W: CD609 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":284:25:284:41|Index value 1 to 200 could be out of prefix range 1 to 20 
+@W: CD609 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":285:25:285:41|Index value 1 to 200 could be out of prefix range 1 to 4 
+@W: CD609 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":291:25:291:41|Index value 1 to 200 could be out of prefix range 1 to 4 
+@W: CD609 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":297:25:297:41|Index value 1 to 200 could be out of prefix range 1 to 2 
+@W: CD604 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":298:3:298:16|OTHERS clause is not synthesized 
+@W: CG296 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":278:0:278:6|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":289:18:289:21|Referenced variable data is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":284:32:284:40|Referenced variable bytecount is not in sensitivity list
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":35:7:35:9|Synthesizing work.i2c.i2c_def 
+@N: CD231 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":59:13:59:14|Using onehot encoding for type state_t (idle="1000000000000000000000")
+@N: CD364 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":105:5:105:11|Removed redundant assignment
+@N: CD364 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":114:5:114:11|Removed redundant assignment
+@W: CG296 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":129:0:129:6|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":214:9:214:18|Referenced variable read_write is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":277:14:277:20|Referenced variable databit is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":176:14:176:20|Referenced variable addrbit is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":139:5:139:7|Referenced variable ena is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":277:9:277:12|Referenced variable data is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":176:9:176:12|Referenced variable addr is not in sensitivity list
+Post processing for work.i2c.i2c_def
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":87:1:87:2|Feedback mux created for signal databit[2:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":87:1:87:2|Feedback mux created for signal addrbit[2:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":87:1:87:2|Feedback mux created for signal counter[6:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+Post processing for work.display.def_arch
+@N: CL201 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":87:1:87:2|Trying to extract state machine for register state
+Extracted state machine for register state
+State machine has 22 reachable states with original encodings of:
+   0000000000000000000001
+   0000000000000000000010
+   0000000000000000000100
+   0000000000000000001000
+   0000000000000000010000
+   0000000000000000100000
+   0000000000000001000000
+   0000000000000010000000
+   0000000000000100000000
+   0000000000001000000000
+   0000000000010000000000
+   0000000000100000000000
+   0000000001000000000000
+   0000000010000000000000
+   0000000100000000000000
+   0000001000000000000000
+   0000010000000000000000
+   0000100000000000000000
+   0001000000000000000000
+   0010000000000000000000
+   0100000000000000000000
+   1000000000000000000000
+@N: CL201 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":156:1:156:2|Trying to extract state machine for register state
+Extracted state machine for register state
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Oct 06 11:59:33 2013
+
+###########################################################]
+Premap Report
+
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 904R, Built Feb 15 2013 10:20:43
+Copyright (C) 1994-2012, Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+Product Version G-2012.09M-SP1 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 48MB peak: 49MB)
+
+@L: C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\display_scck.rpt 
+Printing clock  summary report in "C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\display_scck.rpt" file 
+@N: MF249 |Running in 32-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 49MB peak: 49MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 49MB peak: 49MB)
+
+Finished Pre Mapping Phase.@N: BN225 |Writing default property annotation file C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\display.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 22MB peak: 56MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Oct 06 11:59:35 2013
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 904R, Built Feb 15 2013 10:20:43
+Copyright (C) 1994-2012, Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+Product Version G-2012.09M-SP1 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 48MB peak: 49MB)
+
+@N: MF249 |Running in 32-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 48MB peak: 49MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 48MB peak: 49MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 56MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 56MB)
+
+@N:"c:\users\aaron\desktop\fpga2\fpga\hdl\display.vhd":156:1:156:2|Found counter in view:work.display(def_arch) inst address[7:0]
+@N:"c:\users\aaron\desktop\fpga2\fpga\hdl\display.vhd":156:1:156:2|Found counter in view:work.display(def_arch) inst burstNo[2:0]
+@N: MO106 :"c:\users\aaron\desktop\fpga2\fpga\hdl\display.vhd":284:25:284:30|Found ROM, 'data_i2c_1[7:0]', 20 words by 8 bits 
+@N:"c:\users\aaron\desktop\fpga2\fpga\hdl\display.vhd":156:1:156:2|Found counter in view:work.display(def_arch) inst bytecount[7:0]
+Encoding state machine state[0:5] (view:work.display(def_arch))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+@N:"c:\users\aaron\desktop\fpga2\fpga\hdl\i2c.vhd":87:1:87:2|Found counter in view:work.i2c(i2c_def) inst databit[2:0]
+Encoding state machine state[0:21] (view:work.i2c(i2c_def))
+original code -> new code
+   0000000000000000000001 -> 0000000000000000000001
+   0000000000000000000010 -> 0000000000000000000010
+   0000000000000000000100 -> 0000000000000000000100
+   0000000000000000001000 -> 0000000000000000001000
+   0000000000000000010000 -> 0000000000000000010000
+   0000000000000000100000 -> 0000000000000000100000
+   0000000000000001000000 -> 0000000000000001000000
+   0000000000000010000000 -> 0000000000000010000000
+   0000000000000100000000 -> 0000000000000100000000
+   0000000000001000000000 -> 0000000000001000000000
+   0000000000010000000000 -> 0000000000010000000000
+   0000000000100000000000 -> 0000000000100000000000
+   0000000001000000000000 -> 0000000001000000000000
+   0000000010000000000000 -> 0000000010000000000000
+   0000000100000000000000 -> 0000000100000000000000
+   0000001000000000000000 -> 0000001000000000000000
+   0000010000000000000000 -> 0000010000000000000000
+   0000100000000000000000 -> 0000100000000000000000
+   0001000000000000000000 -> 0001000000000000000000
+   0010000000000000000000 -> 0010000000000000000000
+   0100000000000000000000 -> 0100000000000000000000
+   1000000000000000000000 -> 1000000000000000000000
+@N: MF238 :"c:\users\aaron\desktop\fpga2\fpga\hdl\i2c.vhd":95:14:95:26|Found 7-bit incrementor, 'un4_counter_1[6:0]'
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 58MB peak: 58MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 57MB peak: 58MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 58MB peak: 58MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 58MB peak: 59MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 62MB peak: 62MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 61MB peak: 62MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 61MB peak: 62MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name     Fanout, notes                 
+-------------------------------------------------------------
+bytecount[0] / Q               26                            
+reset_pad / Y                  56 : 47 asynchronous set/reset
+=============================================================
+
+@N: FP130 |Promoting Net clk_c on CLKBUF  clk_pad 
+@N: FP130 |Promoting Net reset_c_c on CLKINT  I_209 
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 60MB peak: 63MB)
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 60MB peak: 63MB)
+
+Replicating Sequential Instance bytecount[0], fanout 26 segments 2
+
+Added 0 Buffers
+Added 1 Cells via replication
+	Added 1 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 60MB peak: 63MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 61 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       clk                 port                   61         bytecount_0[0] 
+=======================================================================================
+===== Gated/Generated Clocks =====
+************** None **************
+----------------------------------
+==================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+Writing Analyst data base C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\display.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 59MB peak: 63MB)
+
+Writing EDIF Netlist and constraint files
+G-2012.09M-SP1 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 60MB peak: 63MB)
+
+@W: MT420 |Found inferred clock display|clk with period 10.00ns. Please declare a user-defined clock on object "p:clk"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sun Oct 06 11:59:39 2013
+#
+
+
+Top view:               display
+Library name:           IGLOO_V2
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.14, P = 3.70, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        igloo
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -19.835
+
+                   Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack       Type         Group              
+-----------------------------------------------------------------------------------------------------------------------
+display|clk        100.0 MHz     33.5 MHz      10.000        29.835        -19.835     inferred     Inferred_clkgroup_0
+=======================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                    |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------
+Starting     Ending       |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------
+display|clk  display|clk  |  10.000      -19.835  |  No paths    -      |  No paths    -      |  No paths    -    
+==================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: display|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                    Starting                                              Arrival            
+Instance            Reference       Type         Pin     Net              Time        Slack  
+                    Clock                                                                    
+---------------------------------------------------------------------------------------------
+bytecount[1]        display|clk     DFN1C0       Q       bytecount[1]     1.771       -19.835
+bytecount[2]        display|clk     DFN1C0       Q       bytecount[2]     1.771       -19.247
+bytecount[4]        display|clk     DFN1C0       Q       bytecount[4]     1.771       -19.176
+bytecount[5]        display|clk     DFN1C0       Q       bytecount[5]     1.771       -18.353
+bytecount[0]        display|clk     DFN1C0       Q       bytecount[0]     1.395       -18.307
+bytecount[6]        display|clk     DFN1C0       Q       bytecount[6]     1.771       -17.672
+burstNo[0]          display|clk     DFN1E1C0     Q       burstNo[0]       1.771       -17.163
+burstNo[1]          display|clk     DFN1E1C0     Q       burstNo[1]       1.395       -16.925
+burstNo[2]          display|clk     DFN1E1C0     Q       burstNo[2]       1.395       -16.787
+i2c0.counter[3]     display|clk     DFN1E1       Q       counter[3]       1.771       -16.549
+=============================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                                      Required            
+Instance            Reference       Type         Pin     Net                      Time         Slack  
+                    Clock                                                                             
+------------------------------------------------------------------------------------------------------
+bytecount[1]        display|clk     DFN1C0       D       N_4                      8.622        -19.835
+bytecount[5]        display|clk     DFN1C0       D       N_12                     8.622        -19.180
+bytecount[6]        display|clk     DFN1C0       D       N_14                     8.622        -19.180
+bytecount[3]        display|clk     DFN1C0       D       N_8                      8.622        -19.176
+bytecount[4]        display|clk     DFN1C0       D       N_10                     8.622        -19.176
+i2c0.addrbit[2]     display|clk     DFN1         D       un1_addrbit_1_0_0[2]     8.705        -16.549
+bytecount[7]        display|clk     DFN1C0       D       bytecount_e7             8.622        -16.394
+i2c0.databit[0]     display|clk     DFN1E1       D       N_568                    8.705        -16.277
+address[0]          display|clk     DFN1E1C0     E       addresse                 8.538        -16.043
+address[1]          display|clk     DFN1E1C0     E       addresse                 8.538        -16.043
+======================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            1.378
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.622
+
+    - Propagation time:                      28.457
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -19.835
+
+    Number of logic level(s):                6
+    Starting point:                          bytecount[1] / Q
+    Ending point:                            bytecount[1] / D
+    The start point is clocked by            display|clk [rising] on pin CLK
+    The end   point is clocked by            display|clk [rising] on pin CLK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                        Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+bytecount[1]                DFN1C0     Q        Out     1.771     1.771       -         
+bytecount[1]                Net        -        -       5.438     -           18        
+bytecount_RNIFDMQ[4]        OR2        B        In      -         7.208       -         
+bytecount_RNIFDMQ[4]        OR2        Y        Out     1.554     8.762       -         
+N_65                        Net        -        -       3.420     -           6         
+burstNo_RNISVVG1[2]         XA1B       C        In      -         12.182      -         
+burstNo_RNISVVG1[2]         XA1B       Y        Out     1.178     13.360      -         
+bytecountlde_i_a2_0         Net        -        -       0.773     -           1         
+bytecount_0_RNINL8D5[0]     OA1        C        In      -         14.133      -         
+bytecount_0_RNINL8D5[0]     OA1        Y        Out     1.599     15.732      -         
+N_114                       Net        -        -       1.938     -           3         
+state_RNIJPKSD[0]           OA1        A        In      -         17.670      -         
+state_RNIJPKSD[0]           OA1        Y        Out     2.364     20.034      -         
+N_92                        Net        -        -       3.074     -           5         
+bytecount_RNO_0[1]          OA1C       B        In      -         23.108      -         
+bytecount_RNO_0[1]          OA1C       Y        Out     2.163     25.271      -         
+N_28                        Net        -        -       0.773     -           1         
+bytecount_RNO[1]            NOR3       C        In      -         26.043      -         
+bytecount_RNO[1]            NOR3       Y        Out     1.641     27.685      -         
+N_4                         Net        -        -       0.773     -           1         
+bytecount[1]                DFN1C0     D        In      -         28.457      -         
+========================================================================================
+Total path delay (propagation time + setup) of 29.835 is 13.648(45.7%) logic and 16.187(54.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            1.378
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.622
+
+    - Propagation time:                      27.868
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -19.247
+
+    Number of logic level(s):                6
+    Starting point:                          bytecount[2] / Q
+    Ending point:                            bytecount[1] / D
+    The start point is clocked by            display|clk [rising] on pin CLK
+    The end   point is clocked by            display|clk [rising] on pin CLK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                        Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+bytecount[2]                DFN1C0     Q        Out     1.771     1.771       -         
+bytecount[2]                Net        -        -       5.722     -           21        
+bytecount_RNICAMQ_0[0]      NOR2A      B        In      -         7.492       -         
+bytecount_RNICAMQ_0[0]      NOR2A      Y        Out     0.977     8.470       -         
+N_45_2                      Net        -        -       1.938     -           3         
+burstNo_RNIMLH02[0]         NOR3C      C        In      -         10.407      -         
+burstNo_RNIMLH02[0]         NOR3C      Y        Out     1.599     12.007      -         
+N_110                       Net        -        -       0.773     -           1         
+bytecount_0_RNINL8D5[0]     OA1        A        In      -         12.779      -         
+bytecount_0_RNINL8D5[0]     OA1        Y        Out     2.364     15.143      -         
+N_114                       Net        -        -       1.938     -           3         
+state_RNIJPKSD[0]           OA1        A        In      -         17.081      -         
+state_RNIJPKSD[0]           OA1        Y        Out     2.364     19.445      -         
+N_92                        Net        -        -       3.074     -           5         
+bytecount_RNO_0[1]          OA1C       B        In      -         22.519      -         
+bytecount_RNO_0[1]          OA1C       Y        Out     2.163     24.682      -         
+N_28                        Net        -        -       0.773     -           1         
+bytecount_RNO[1]            NOR3       C        In      -         25.454      -         
+bytecount_RNO[1]            NOR3       Y        Out     1.641     27.096      -         
+N_4                         Net        -        -       0.773     -           1         
+bytecount[1]                DFN1C0     D        In      -         27.868      -         
+========================================================================================
+Total path delay (propagation time + setup) of 29.247 is 14.258(48.8%) logic and 14.989(51.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            1.378
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.622
+
+    - Propagation time:                      27.802
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -19.180
+
+    Number of logic level(s):                6
+    Starting point:                          bytecount[1] / Q
+    Ending point:                            bytecount[6] / D
+    The start point is clocked by            display|clk [rising] on pin CLK
+    The end   point is clocked by            display|clk [rising] on pin CLK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                        Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+bytecount[1]                DFN1C0     Q        Out     1.771     1.771       -         
+bytecount[1]                Net        -        -       5.438     -           18        
+bytecount_RNIFDMQ[4]        OR2        B        In      -         7.208       -         
+bytecount_RNIFDMQ[4]        OR2        Y        Out     1.554     8.762       -         
+N_65                        Net        -        -       3.420     -           6         
+burstNo_RNISVVG1[2]         XA1B       C        In      -         12.182      -         
+burstNo_RNISVVG1[2]         XA1B       Y        Out     1.178     13.360      -         
+bytecountlde_i_a2_0         Net        -        -       0.773     -           1         
+bytecount_0_RNINL8D5[0]     OA1        C        In      -         14.133      -         
+bytecount_0_RNINL8D5[0]     OA1        Y        Out     1.599     15.732      -         
+N_114                       Net        -        -       1.938     -           3         
+state_RNIJPKSD[0]           OA1        A        In      -         17.670      -         
+state_RNIJPKSD[0]           OA1        Y        Out     2.364     20.034      -         
+N_92                        Net        -        -       3.074     -           5         
+bytecount_RNO_0[6]          OR3        C        In      -         23.108      -         
+bytecount_RNO_0[6]          OR3        Y        Out     1.641     24.749      -         
+bytecount_e6_i_N_20         Net        -        -       0.773     -           1         
+bytecount_RNO[6]            XA1C       B        In      -         25.521      -         
+bytecount_RNO[6]            XA1C       Y        Out     1.508     27.029      -         
+N_14                        Net        -        -       0.773     -           1         
+bytecount[6]                DFN1C0     D        In      -         27.802      -         
+========================================================================================
+Total path delay (propagation time + setup) of 29.180 is 12.992(44.5%) logic and 16.187(55.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            1.378
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.622
+
+    - Propagation time:                      27.802
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -19.180
+
+    Number of logic level(s):                6
+    Starting point:                          bytecount[1] / Q
+    Ending point:                            bytecount[5] / D
+    The start point is clocked by            display|clk [rising] on pin CLK
+    The end   point is clocked by            display|clk [rising] on pin CLK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                        Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+bytecount[1]                DFN1C0     Q        Out     1.771     1.771       -         
+bytecount[1]                Net        -        -       5.438     -           18        
+bytecount_RNIFDMQ[4]        OR2        B        In      -         7.208       -         
+bytecount_RNIFDMQ[4]        OR2        Y        Out     1.554     8.762       -         
+N_65                        Net        -        -       3.420     -           6         
+burstNo_RNISVVG1[2]         XA1B       C        In      -         12.182      -         
+burstNo_RNISVVG1[2]         XA1B       Y        Out     1.178     13.360      -         
+bytecountlde_i_a2_0         Net        -        -       0.773     -           1         
+bytecount_0_RNINL8D5[0]     OA1        C        In      -         14.133      -         
+bytecount_0_RNINL8D5[0]     OA1        Y        Out     1.599     15.732      -         
+N_114                       Net        -        -       1.938     -           3         
+state_RNIJPKSD[0]           OA1        A        In      -         17.670      -         
+state_RNIJPKSD[0]           OA1        Y        Out     2.364     20.034      -         
+N_92                        Net        -        -       3.074     -           5         
+bytecount_RNO_0[5]          OR3        C        In      -         23.108      -         
+bytecount_RNO_0[5]          OR3        Y        Out     1.641     24.749      -         
+bytecount_e5_i_208_N_11     Net        -        -       0.773     -           1         
+bytecount_RNO[5]            XA1C       B        In      -         25.521      -         
+bytecount_RNO[5]            XA1C       Y        Out     1.508     27.029      -         
+N_12                        Net        -        -       0.773     -           1         
+bytecount[5]                DFN1C0     D        In      -         27.802      -         
+========================================================================================
+Total path delay (propagation time + setup) of 29.180 is 12.992(44.5%) logic and 16.187(55.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            1.378
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.622
+
+    - Propagation time:                      27.797
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -19.176
+
+    Number of logic level(s):                6
+    Starting point:                          bytecount[4] / Q
+    Ending point:                            bytecount[1] / D
+    The start point is clocked by            display|clk [rising] on pin CLK
+    The end   point is clocked by            display|clk [rising] on pin CLK
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                        Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+bytecount[4]                DFN1C0     Q        Out     1.771     1.771       -         
+bytecount[4]                Net        -        -       5.112     -           15        
+bytecount_RNIFDMQ[4]        OR2        A        In      -         6.883       -         
+bytecount_RNIFDMQ[4]        OR2        Y        Out     1.219     8.102       -         
+N_65                        Net        -        -       3.420     -           6         
+burstNo_RNISVVG1[2]         XA1B       C        In      -         11.522      -         
+burstNo_RNISVVG1[2]         XA1B       Y        Out     1.178     12.700      -         
+bytecountlde_i_a2_0         Net        -        -       0.773     -           1         
+bytecount_0_RNINL8D5[0]     OA1        C        In      -         13.473      -         
+bytecount_0_RNINL8D5[0]     OA1        Y        Out     1.599     15.072      -         
+N_114                       Net        -        -       1.938     -           3         
+state_RNIJPKSD[0]           OA1        A        In      -         17.010      -         
+state_RNIJPKSD[0]           OA1        Y        Out     2.364     19.374      -         
+N_92                        Net        -        -       3.074     -           5         
+bytecount_RNO_0[1]          OA1C       B        In      -         22.448      -         
+bytecount_RNO_0[1]          OA1C       Y        Out     2.163     24.611      -         
+N_28                        Net        -        -       0.773     -           1         
+bytecount_RNO[1]            NOR3       C        In      -         25.384      -         
+bytecount_RNO[1]            NOR3       Y        Out     1.641     27.025      -         
+N_4                         Net        -        -       0.773     -           1         
+bytecount[1]                DFN1C0     D        In      -         27.797      -         
+========================================================================================
+Total path delay (propagation time + setup) of 29.176 is 13.314(45.6%) logic and 15.862(54.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: AGL125V2_QFN132_STD
+Report for cell display.def_arch
+  Core Cell usage:
+              cell count     area count*area
+              AND2     3      1.0        3.0
+              AND3     4      1.0        4.0
+               AO1    15      1.0       15.0
+              AO1A    13      1.0       13.0
+              AO1B     1      1.0        1.0
+              AO1C     1      1.0        1.0
+              AO1D     2      1.0        2.0
+              AOI1     4      1.0        4.0
+             AOI1B     3      1.0        3.0
+              AX1A     1      1.0        1.0
+              AX1D     1      1.0        1.0
+              AX1E     1      1.0        1.0
+             AXOI7     1      1.0        1.0
+            CLKINT     1      0.0        0.0
+               GND     2      0.0        0.0
+               INV     2      1.0        2.0
+              MIN3     1      1.0        1.0
+               MX2    11      1.0       11.0
+              MX2A     1      1.0        1.0
+              MX2B     1      1.0        1.0
+              MX2C     1      1.0        1.0
+              NOR2    27      1.0       27.0
+             NOR2A    41      1.0       41.0
+             NOR2B    14      1.0       14.0
+              NOR3     9      1.0        9.0
+             NOR3A    15      1.0       15.0
+             NOR3B    16      1.0       16.0
+             NOR3C     4      1.0        4.0
+               OA1     7      1.0        7.0
+              OA1A     3      1.0        3.0
+              OA1B     2      1.0        2.0
+              OA1C     6      1.0        6.0
+              OAI1     1      1.0        1.0
+               OR2    17      1.0       17.0
+              OR2A     4      1.0        4.0
+              OR2B     7      1.0        7.0
+               OR3    13      1.0       13.0
+              OR3A     6      1.0        6.0
+              OR3B     3      1.0        3.0
+              OR3C     2      1.0        2.0
+               VCC     2      0.0        0.0
+               XA1     2      1.0        2.0
+              XA1B     2      1.0        2.0
+              XA1C     7      1.0        7.0
+              XAI1     1      1.0        1.0
+             XNOR2     3      1.0        3.0
+              XO1A     2      1.0        2.0
+              XOR2    15      1.0       15.0
+             ZOR3I     1      1.0        1.0
+
+
+              DFN1     3      1.0        3.0
+            DFN1C0    20      1.0       20.0
+          DFN1E0C0    15      1.0       15.0
+            DFN1E1    10      1.0       10.0
+          DFN1E1C0    11      1.0       11.0
+            DFN1P0     2      1.0        2.0
+                   -----          ----------
+             TOTAL   363               358.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF    10
+            OUTBUF    10
+           TRIBUFF     2
+                   -----
+             TOTAL    23
+
+
+Core Cells         : 358 of 3072 (12%)
+IO Cells           : 23
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 24MB peak: 63MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:02s cputime
+# Sun Oct 06 11:59:39 2013
+
+###########################################################]

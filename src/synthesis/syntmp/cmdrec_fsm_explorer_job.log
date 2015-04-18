@@ -1,0 +1,11 @@
+C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\bin\m_proasic.exe  -prodtype synplify_pro -encrypt  -pro  -rundir  C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis  -part AGL125V2  -package QFN132  -grade STD   -globalthreshold 50 -maxfan 24 -opcond COMWC     -report_path 0   -RWCheckOnRam 0     -summaryfile C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\synlog\report\top_fsm_explorer_job.xml -top_level_module  work.top  -oedif  C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\top.edn  -freq 100.000  C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\top.srs  -fsm_explorer  C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\top_fsm.sdc  -devicelib  C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\lib\proasic\igloo.v  -ologparam  C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\syntmp\top.plg  -osyn  C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\top.srm  -prjdir  C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\  -prjname  top_syn  -log  C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\top.srr 
+rc:0 success:1
+C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\top.edn|o|1380155536|564021
+C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\top.srs|i|1380156007|16899
+C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\top_fsm.sdc|o|1380156031|0
+C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\lib\proasic\igloo.v|i|1360945790|50704
+C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\syntmp\top.plg|o|1380156026|0
+C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\top.srm|o|1380155536|163177
+C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\top.srr|o|1380156031|11497
+C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\bin\m_proasic.exe|i|1360945622|11409920
+C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\bin64\m_proasic.exe|i|1360945634|13812224

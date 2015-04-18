@@ -1,0 +1,340 @@
+# Reading C:/Microsemi/Libero_v11.0/Model/tcl/vsim/pref.tcl 
+# do run.do 
+# INFO: Simulation library postsynth already exists 
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# INFO: Simulation library COREUART_LIB already exists 
+# Modifying modelsim.ini
+# Model Technology ModelSim ACTEL vcom 10.1c Compiler 2012.07 Jul 28 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package uart_uart_0_components
+# Model Technology ModelSim ACTEL vcom 10.1c Compiler 2012.07 Jul 28 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity i2c
+# -- Compiling architecture DEF_ARCH of i2c
+# -- Compiling entity display
+# -- Compiling architecture DEF_ARCH of display
+# -- Loading entity i2c
+# Model Technology ModelSim ACTEL vcom 10.1c Compiler 2012.07 Jul 28 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity display_tb
+# -- Compiling architecture behavioral of display_tb
+# vsim -L igloo -L postsynth -L COREUART_LIB -t 1ps postsynth.display_tb 
+# //  ModelSim ACTEL 10.1c Jul 28 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading postsynth.display_tb(behavioral)
+# Loading postsynth.display(def_arch)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading igloo.vtables
+# Loading igloo.ao1a(vital_act)
+# Loading igloo.outbuf(vital_act)
+# Loading igloo.dfn1c0(vital_act)
+# Loading igloo.dfn1e1c0(vital_act)
+# Loading igloo.nor2a(vital_act)
+# Loading igloo.nor2(vital_act)
+# Loading igloo.or2b(vital_act)
+# Loading igloo.oa1b(vital_act)
+# Loading igloo.aoi1b(vital_act)
+# Loading igloo.oa1(vital_act)
+# Loading igloo.nor3b(vital_act)
+# Loading igloo.ax1e(vital_act)
+# Loading igloo.oa1a(vital_act)
+# Loading igloo.nor3c(vital_act)
+# Loading igloo.or3(vital_act)
+# Loading igloo.xor2(vital_act)
+# Loading igloo.ao1(vital_act)
+# Loading igloo.nor2b(vital_act)
+# Loading igloo.or3a(vital_act)
+# Loading igloo.inbuf(vital_act)
+# Loading igloo.xa1b(vital_act)
+# Loading igloo.aoi1(vital_act)
+# Loading igloo.or2(vital_act)
+# Loading igloo.or3c(vital_act)
+# Loading igloo.nor3a(vital_act)
+# Loading postsynth.i2c(def_arch)
+# Loading igloo.dfn1e0c0(vital_act)
+# Loading igloo.and3(vital_act)
+# Loading igloo.dfn1e1(vital_act)
+# Loading igloo.nor3(vital_act)
+# Loading igloo.mx2a(vital_act)
+# Loading igloo.mx2(vital_act)
+# Loading igloo.or2a(vital_act)
+# Loading igloo.mx2b(vital_act)
+# Loading igloo.gnd(vital_act)
+# Loading igloo.mx2c(vital_act)
+# Loading igloo.and2(vital_act)
+# Loading igloo.dfn1(vital_act)
+# Loading igloo.dfn1p0(vital_act)
+# Loading igloo.xo1a(vital_act)
+# Loading igloo.ao1c(vital_act)
+# Loading igloo.vcc(vital_act)
+# Loading igloo.inv(vital_act)
+# Loading igloo.oa1c(vital_act)
+# Loading igloo.xa1(vital_act)
+# Loading igloo.ax1a(vital_act)
+# Loading igloo.ax1d(vital_act)
+# Loading igloo.zor3i(vital_act)
+# Loading igloo.xnor2(vital_act)
+# Loading igloo.tribuff(vital_act)
+# Loading igloo.ao1b(vital_act)
+# Loading igloo.oai1(vital_act)
+# Loading igloo.xa1c(vital_act)
+# Loading igloo.or3b(vital_act)
+# Loading igloo.min3(vital_act)
+# Loading igloo.clkbuf(vital_act)
+# Loading igloo.clkint(vital_act)
+# Loading igloo.ao1d(vital_act)
+# Loading igloo.axoi7(vital_act)
+# Loading igloo.xai1(vital_act)
+add wave -position end  sim:/display_tb/display_0/draw
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/display_tb/display_0/\column_address_pad[4]\/D
+add wave -position end  sim:/display_tb/display_0/\column_address_pad[4]\/PAD
+add wave -position end  sim:/display_tb/display_0/\column_address_pad[4]\/D_ipd
+add wave -position end  sim:/display_tb/display_0/column_address
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/display_tb/display_0/scl
+add wave -position end  sim:/display_tb/display_0/sda
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Break key hit 
+restart -f
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart -f
+run
+run
+restart -f
+run
+# WARNING: No extended dataflow license exists
+restart -f
+run
+add wave -position end  sim:/display_tb/display_0/\state[5]_net_1\
+add wave -position end  sim:/display_tb/display_0/\state[2]_net_1\
+add wave -position end  sim:/display_tb/display_0/\state[1]_net_1\
+add wave -position end  sim:/display_tb/display_0/\state[0]_net_1\
+add wave -position end  sim:/display_tb/display_0/\state[4]_net_1\
+add wave -position end  sim:/display_tb/display_0/\state[3]_net_1\
+restart -f
+run
+add wave -position end  sim:/display_tb/display_0/busy
+restart -f
+run

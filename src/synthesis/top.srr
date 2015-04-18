@@ -1,0 +1,1045 @@
+#Build: Synplify Pro G-2012.09M-SP1 , Build 013R, Feb 15 2013
+#install: C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1
+#OS:  5.2
+#Hostname: Y1
+
+#Implementation: synthesis
+
+$ Start of Compile
+#Sun Oct 06 21:58:01 2013
+
+Synopsys VHDL Compiler, version comp201209rcp1, Build 245R, built Feb 20 2013
+@N|Running in 32-bit mode
+Copyright (C) 1994-2012 Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+
+@N: CD720 :"C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ns
+@N:"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":34:7:34:9|Top entity is set to top.
+File C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd changed - recompiling
+File C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd changed - recompiling
+File C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Tx_async.vhd changed - recompiling
+File C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Rx_async.vhd changed - recompiling
+File C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\fifo_256x8_igloo.vhd changed - recompiling
+File C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\lib\proasic\igloo.vhd changed - recompiling
+File C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\components.vhd changed - recompiling
+File C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\char_rom.vhd changed - recompiling
+File C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd changed - recompiling
+File C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd changed - recompiling
+File C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart.vhd changed - recompiling
+File C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd changed - recompiling
+File C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\lib\vhd2008\std_logic_textio.vhd changed - recompiling
+VHDL syntax check successful!
+@N: CD231 :"C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\lib\vhd2008\std1164.vhd":913:16:913:17|Using onehot encoding for type mvl9plus ('U'="1000000000")
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":34:7:34:9|Synthesizing work.top.top1 
+@N: CD231 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":77:12:77:13|Using onehot encoding for type statet (onreset="100000")
+@W: CD434 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":327:8:327:10|Signal clk in the sensitivity list is not used in the process
+@W: CD434 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":327:13:327:17|Signal reset in the sensitivity list is not used in the process
+@W: CG296 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":327:0:327:6|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":355:8:355:13|Referenced variable redraw is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":329:6:329:10|Referenced variable state is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":353:5:353:9|Referenced variable rxrdy is not in sensitivity list
+@W: CD434 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":395:16:395:20|Signal reset in the sensitivity list is not used in the process
+@W: CG296 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":395:0:395:6|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":400:30:400:35|Referenced variable curpos is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":400:49:400:51|Referenced variable led is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":405:11:405:19|Referenced variable char_data is not in sensitivity list
+@W: CD796 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":147:7:147:14|Bit 1 of signal led_edge is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD638 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":152:7:152:11|Signal clear is undriven 
+@W: CD638 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":155:7:155:9|Signal pos is undriven 
+@W: CD638 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":165:7:165:9|Signal csn is undriven 
+@W: CD638 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":174:7:174:10|Signal msgc is undriven 
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart.vhd":20:7:20:10|Synthesizing work.uart.rtl 
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":16:7:16:26|Synthesizing coreuart_lib.uart_uart_0_coreuart.cuarti1 
+@W: CD434 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":245:18:245:25|Signal cuartl1i in the sensitivity list is not used in the process
+@W: CD434 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":245:27:245:34|Signal cuartii1 in the sensitivity list is not used in the process
+@W: CD604 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":357:0:357:13|OTHERS clause is not synthesized 
+@N: CD364 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":395:0:395:7|Removed redundant assignment
+@W: CD638 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Signal cuartl1l is undriven 
+@W: CD638 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Signal cuarto1i is undriven 
+@W: CD638 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":144:7:144:14|Signal cuartoo0 is undriven 
+@W: CD638 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":146:7:146:14|Signal cuartlo0 is undriven 
+@W: CD638 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":154:7:154:14|Signal cuartll0 is undriven 
+@W: CD638 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":156:7:156:14|Signal cuartil0 is undriven 
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":16:7:16:26|Synthesizing coreuart_lib.uart_uart_0_rx_async.cuarti1 
+@N: CD233 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":41:15:41:16|Using sequential encoding for type cuartoiii
+@N: CD364 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":182:0:182:8|Removed redundant assignment
+@W: CD604 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":235:0:235:13|OTHERS clause is not synthesized 
+@W: CD604 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":313:0:313:13|OTHERS clause is not synthesized 
+Post processing for coreuart_lib.uart_uart_0_rx_async.cuarti1
+@N: CL177 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":325:0:325:1|Sharing sequential element CUARTL10I.
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":16:7:16:26|Synthesizing coreuart_lib.uart_uart_0_tx_async.cuarti1 
+@N: CD364 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":228:0:228:8|Removed redundant assignment
+Post processing for coreuart_lib.uart_uart_0_tx_async.cuarti1
+@W: CL190 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":105:0:105:1|Optimizing register bit CUARTIIO0 to a constant 1
+@W: CL169 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":105:0:105:1|Pruning register CUARTIIO0  
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd":16:7:16:27|Synthesizing coreuart_lib.uart_uart_0_clock_gen.cuarti 
+@W: CD638 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd":35:7:35:13|Signal cuartli is undriven 
+Post processing for coreuart_lib.uart_uart_0_clock_gen.cuarti
+Post processing for coreuart_lib.uart_uart_0_coreuart.cuarti1
+@W: CL240 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":156:7:156:14|CUARTIL0 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":154:7:154:14|CUARTLL0 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":146:7:146:14|CUARTlo0 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":144:7:144:14|CUARToo0 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 0 of signal CUARTO1i is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 1 of signal CUARTO1i is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 2 of signal CUARTO1i is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 3 of signal CUARTO1i is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 4 of signal CUARTO1i is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 5 of signal CUARTO1i is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 6 of signal CUARTO1i is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 7 of signal CUARTO1i is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 0 of signal CUARTL1L is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 1 of signal CUARTL1L is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 2 of signal CUARTL1L is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 3 of signal CUARTL1L is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 4 of signal CUARTL1L is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 5 of signal CUARTL1L is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 6 of signal CUARTL1L is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 7 of signal CUARTL1L is floating -- simulation mismatch possible.
+@W: CL169 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":387:0:387:1|Pruning register CUARTl10  
+@W: CL169 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":373:0:373:1|Pruning register CUARTI11  
+@W: CL169 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":363:0:363:1|Pruning register CUARTL1I(7 downto 0)  
+@W: CL169 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":333:0:333:1|Pruning register CUARToool(1 downto 0)  
+@W: CL169 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":323:0:323:1|Pruning register CUARTO00  
+@W: CL169 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":323:0:323:1|Pruning register CUARTL00  
+@W: CL169 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":313:0:313:1|Pruning register CUARToi0  
+@W: CL169 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":313:0:313:1|Pruning register CUARTLI0  
+@W: CL169 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":231:0:231:1|Pruning register CUARTol0  
+@W: CL245 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 0 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 1 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 2 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 3 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 4 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 5 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 6 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 7 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL167 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Input cuarti1l of instance CUARTIIOL is floating
+@W: CL167 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Input cuartooi of instance CUARTIIOL is floating
+Post processing for work.uart.rtl
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\char_rom.vhd":25:7:25:14|Synthesizing work.char_rom.def_arch 
+Post processing for work.char_rom.def_arch
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":29:7:29:13|Synthesizing work.display.def_arch 
+@N: CD231 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":55:12:55:13|Using onehot encoding for type statet (waitfordraw="100000")
+@W: CG296 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":192:0:192:6|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":246:24:246:32|Referenced variable bytecount is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":246:7:246:13|Referenced variable burstno is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":203:7:203:10|Referenced variable draw is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":262:8:262:17|Referenced variable busy_burst is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":228:7:228:15|Referenced variable busy_byte is not in sensitivity list
+@W: CD609 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":284:25:284:41|Index value 1 to 200 could be out of prefix range 1 to 20 
+@W: CD609 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":285:25:285:41|Index value 1 to 200 could be out of prefix range 1 to 4 
+@W: CD609 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":291:25:291:41|Index value 1 to 200 could be out of prefix range 1 to 4 
+@W: CD609 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":297:25:297:41|Index value 1 to 200 could be out of prefix range 1 to 2 
+@W: CD604 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":298:3:298:16|OTHERS clause is not synthesized 
+@W: CG296 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":278:0:278:6|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":284:32:284:40|Referenced variable bytecount is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":289:18:289:21|Referenced variable data is not in sensitivity list
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":35:7:35:9|Synthesizing work.i2c.i2c_def 
+@N: CD231 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":59:13:59:14|Using onehot encoding for type state_t (idle="1000000000000000000000")
+@W: CD274 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":101:4:101:7|Incomplete case statement - add more cases or a when others
+@N: CD364 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":189:3:189:9|Removed redundant assignment
+@N: CD364 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":202:3:202:9|Removed redundant assignment
+@W: CG296 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":213:0:213:6|Incomplete sensitivity list - assuming completeness
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":340:9:340:12|Referenced variable data is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":255:9:255:12|Referenced variable addr is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":286:9:286:18|Referenced variable read_write is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":340:14:340:20|Referenced variable databit is not in sensitivity list
+@W: CG290 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":255:14:255:20|Referenced variable addrbit is not in sensitivity list
+Post processing for work.i2c.i2c_def
+Post processing for work.display.def_arch
+Post processing for work.top.top1
+@W: CL240 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":38:1:38:2|D2 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL169 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Pruning register sw1edge_2(2 downto 1)  
+@W: CL169 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":231:32:231:32|Pruning register led_edge(0)  
+@W: CL117 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":399:1:399:2|Latch generated from process for signal char(7 downto 0); possible missing assignment in an if or case statement.
+@W: CL117 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":399:1:399:2|Latch generated from process for signal column(2 downto 0); possible missing assignment in an if or case statement.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal curpos[4:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_24[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_23[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_22[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_21[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_20[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_19[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_18[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_17[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_16[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_15[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_14[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_13[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_12[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_11[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_10[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_9[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_8[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_7[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_6[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_5[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_4[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_3[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_2[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal text_1[7:0] -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@A: CL282 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Feedback mux created for signal redraw -- possible set/reset assignment for signal missing. Specifying a reset value will improve timing and area.
+@N: CL201 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":88:1:88:2|Trying to extract state machine for register state
+Extracted state machine for register state
+State machine has 22 reachable states with original encodings of:
+   0000000000000000000001
+   0000000000000000000010
+   0000000000000000000100
+   0000000000000000001000
+   0000000000000000010000
+   0000000000000000100000
+   0000000000000001000000
+   0000000000000010000000
+   0000000000000100000000
+   0000000000001000000000
+   0000000000010000000000
+   0000000000100000000000
+   0000000001000000000000
+   0000000010000000000000
+   0000000100000000000000
+   0000001000000000000000
+   0000010000000000000000
+   0000100000000000000000
+   0001000000000000000000
+   0010000000000000000000
+   0100000000000000000000
+   1000000000000000000000
+@N: CL201 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":156:1:156:2|Trying to extract state machine for register state
+Extracted state machine for register state
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000
+@W: CL159 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd":20:0:20:16|Input bAUD_VAL_FRACtion is unused
+@N: CL201 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":105:0:105:1|Trying to extract state machine for register CUARTolo0
+Extracted state machine for register CUARTolo0
+State machine has 6 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+   00000000000000000000000000000011
+   00000000000000000000000000000100
+   00000000000000000000000000000101
+@W: CL159 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":22:0:22:7|Input CUARTL1L is unused
+@W: CL159 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":23:0:23:7|Input CUARTI1L is unused
+@W: CL159 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":24:0:24:7|Input CUARTooi is unused
+@N: CL201 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":196:0:196:1|Trying to extract state machine for register CUARToool
+Extracted state machine for register CUARToool
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@N: CL201 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Trying to extract state machine for register state
+Extracted state machine for register state
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000
+@W: CL159 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":45:1:45:3|Input sw1 is unused
+@W: CL159 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":46:4:46:6|Input SW5 is unused
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Oct 06 21:58:02 2013
+
+###########################################################]
+Premap Report
+
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 904R, Built Feb 15 2013 10:20:43
+Copyright (C) 1994-2012, Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+Product Version G-2012.09M-SP1 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 48MB peak: 49MB)
+
+@L: C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\top_scck.rpt 
+Printing clock  summary report in "C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\top_scck.rpt" file 
+@N: MF249 |Running in 32-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 49MB peak: 50MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 49MB peak: 50MB)
+
+Finished Pre Mapping Phase.@N: BN225 |Writing default property annotation file C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\top.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 23MB peak: 57MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Oct 06 21:58:04 2013
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 904R, Built Feb 15 2013 10:20:43
+Copyright (C) 1994-2012, Synopsys, Inc. This software the associated documentation are confidential and proprietary to Synopsys, Inc. Your use or disclosure of this software subject to the terms and conditions of a written license agreement between you, or your company, and Synopsys, Inc.
+Product Version G-2012.09M-SP1 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 48MB peak: 49MB)
+
+@N: MF249 |Running in 32-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 48MB peak: 49MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 48MB peak: 49MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 56MB)
+
+@W: MO160 :"c:\users\aaron\desktop\fpga2\fpga\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\rx_async.vhd":275:0:275:1|Register bit CUARTO1II is always 0, optimizing ...
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: MT462 :"c:\users\aaron\desktop\fpga2\fpga\hdl\top.vhd":400:5:400:57|Net data_1_sqmuxa appears to be an unidentified clock source. Assuming default frequency. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 56MB)
+
+@N:"c:\users\aaron\desktop\fpga2\fpga\hdl\top.vhd":231:32:231:32|Found counter in view:work.top(top1) inst counter[25:0]
+Encoding state machine state[0:5] (view:work.top(top1))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+@N: MF176 |Default generator successful 
+@N: MF239 :"c:\users\aaron\desktop\fpga2\fpga\hdl\top.vhd":403:18:403:40|Found 9-bit decrementor, 'un2_char\.un2_char[32:24]'
+@N: MF176 |Default generator successful 
+@N: MF239 :"c:\users\aaron\desktop\fpga2\fpga\hdl\top.vhd":290:16:290:25|Found 5-bit decrementor, 'un15_curpos[28:32]'
+@N:"c:\users\aaron\desktop\fpga2\fpga\hdl\display.vhd":156:1:156:2|Found counter in view:work.display(def_arch) inst bytecount[7:0]
+@N:"c:\users\aaron\desktop\fpga2\fpga\hdl\display.vhd":156:1:156:2|Found counter in view:work.display(def_arch) inst burstNo[2:0]
+@N: MO106 :"c:\users\aaron\desktop\fpga2\fpga\hdl\display.vhd":284:25:284:30|Found ROM, 'data_i2c_1[7:0]', 20 words by 8 bits 
+Encoding state machine state[0:5] (view:work.display(def_arch))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+@N:"c:\users\aaron\desktop\fpga2\fpga\hdl\i2c.vhd":196:1:196:2|Found counter in view:work.i2c(i2c_def) inst databit[2:0]
+@N:"c:\users\aaron\desktop\fpga2\fpga\hdl\i2c.vhd":183:1:183:2|Found counter in view:work.i2c(i2c_def) inst addrbit[2:0]
+Encoding state machine state[0:21] (view:work.i2c(i2c_def))
+original code -> new code
+   0000000000000000000001 -> 0000000000000000000000
+   0000000000000000000010 -> 0000000000000000000011
+   0000000000000000000100 -> 0000000000000000000101
+   0000000000000000001000 -> 0000000000000000001001
+   0000000000000000010000 -> 0000000000000000010001
+   0000000000000000100000 -> 0000000000000000100001
+   0000000000000001000000 -> 0000000000000001000001
+   0000000000000010000000 -> 0000000000000010000001
+   0000000000000100000000 -> 0000000000000100000001
+   0000000000001000000000 -> 0000000000001000000001
+   0000000000010000000000 -> 0000000000010000000001
+   0000000000100000000000 -> 0000000000100000000001
+   0000000001000000000000 -> 0000000001000000000001
+   0000000010000000000000 -> 0000000010000000000001
+   0000000100000000000000 -> 0000000100000000000001
+   0000001000000000000000 -> 0000001000000000000001
+   0000010000000000000000 -> 0000010000000000000001
+   0000100000000000000000 -> 0000100000000000000001
+   0001000000000000000000 -> 0001000000000000000001
+   0010000000000000000000 -> 0010000000000000000001
+   0100000000000000000000 -> 0100000000000000000001
+   1000000000000000000000 -> 1000000000000000000001
+@N: MF238 :"c:\users\aaron\desktop\fpga2\fpga\hdl\i2c.vhd":178:14:178:24|Found 7-bit incrementor, 'un5_counter[6:0]'
+@N: MO106 :"c:\users\aaron\desktop\fpga2\fpga\hdl\char_rom.vhd":689:9:689:16|Found ROM, 'data_1[7:0]', 552 words by 8 bits 
+@N: MF176 |Default generator successful 
+@N:"c:\users\aaron\desktop\fpga2\fpga\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\clock_gen.vhd":179:0:179:1|Found counter in view:coreuart_lib.uart_uart_0_Clock_GEN(cuarti) inst CUARTol[12:0]
+@N:"c:\users\aaron\desktop\fpga2\fpga\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\clock_gen.vhd":196:0:196:1|Found counter in view:coreuart_lib.uart_uart_0_Clock_GEN(cuarti) inst CUARToi[3:0]
+@N:"c:\users\aaron\desktop\fpga2\fpga\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\tx_async.vhd":178:0:178:1|Found counter in view:coreuart_lib.uart_uart_0_TX_ASync(cuarti1) inst CUARToio0[3:0]
+Encoding state machine CUARTolo0[0:5] (view:coreuart_lib.uart_uart_0_TX_ASync(cuarti1))
+original code -> new code
+   00000000000000000000000000000000 -> 000001
+   00000000000000000000000000000001 -> 000010
+   00000000000000000000000000000010 -> 000100
+   00000000000000000000000000000011 -> 001000
+   00000000000000000000000000000100 -> 010000
+   00000000000000000000000000000101 -> 100000
+@W: MO160 :|Register bit CUARTolo0[1] is always 0, optimizing ...
+@N: BN362 :"c:\users\aaron\desktop\fpga2\fpga\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\tx_async.vhd":221:0:221:1|Removing sequential instance CUARTlio0 of view:PrimLib.dffr(prim) in hierarchy view:coreuart_lib.uart_uart_0_TX_ASync(cuarti1) because there are no references to its outputs 
+@N:"c:\users\aaron\desktop\fpga2\fpga\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\rx_async.vhd":245:0:245:1|Found counter in view:coreuart_lib.uart_uart_0_Rx_ASYNC(cuarti1) inst CUARTL1II[3:0]
+@N:"c:\users\aaron\desktop\fpga2\fpga\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\rx_async.vhd":141:0:141:1|Found counter in view:coreuart_lib.uart_uart_0_Rx_ASYNC(cuarti1) inst CUARTo0ii[3:0]
+Encoding state machine CUARToool[0:2] (view:coreuart_lib.uart_uart_0_Rx_ASYNC(cuarti1))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+@N: BN362 :"c:\users\aaron\desktop\fpga2\fpga\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\rx_async.vhd":245:0:245:1|Removing sequential instance CUARTi0ii[8] of view:PrimLib.dffr(prim) in hierarchy view:coreuart_lib.uart_uart_0_Rx_ASYNC(cuarti1) because there are no references to its outputs 
+
+Finished factoring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 75MB peak: 76MB)
+
+@N: BN362 :"c:\users\aaron\desktop\fpga2\fpga\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\rx_async.vhd":156:0:156:1|Removing sequential instance uart_0.uart_0.CUARTo0ol.CUARTli0i of view:PrimLib.dffr(prim) in hierarchy view:work.top(top1) because there are no references to its outputs 
+@N: BN362 :"c:\users\aaron\desktop\fpga2\fpga\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\rx_async.vhd":172:0:172:1|Removing sequential instance uart_0.uart_0.CUARTo0ol.CUARTO00i of view:PrimLib.dffr(prim) in hierarchy view:work.top(top1) because there are no references to its outputs 
+@N: BN362 :"c:\users\aaron\desktop\fpga2\fpga\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\rx_async.vhd":196:0:196:1|Removing sequential instance uart_0.uart_0.CUARTo0ol.CUARTL00I of view:PrimLib.dffr(prim) in hierarchy view:work.top(top1) because there are no references to its outputs 
+@N: BN362 :"c:\users\aaron\desktop\fpga2\fpga\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\rx_async.vhd":196:0:196:1|Removing sequential instance uart_0.uart_0.CUARTo0ol.CUARTlo0i of view:PrimLib.dffr(prim) in hierarchy view:work.top(top1) because there are no references to its outputs 
+@N: BN362 :"c:\users\aaron\desktop\fpga2\fpga\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\rx_async.vhd":292:0:292:1|Removing sequential instance uart_0.uart_0.CUARTo0ol.CUARTii0i of view:PrimLib.dffr(prim) in hierarchy view:work.top(top1) because there are no references to its outputs 
+@N: BN362 :"c:\users\aaron\desktop\fpga2\fpga\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\rx_async.vhd":325:0:325:1|Removing sequential instance uart_0.uart_0.CUARTo0ol.CUARTLO1I of view:PrimLib.dffs(prim) in hierarchy view:work.top(top1) because there are no references to its outputs 
+@N: BN362 :"c:\users\aaron\desktop\fpga2\fpga\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\rx_async.vhd":325:0:325:1|Removing sequential instance uart_0.uart_0.CUARTo0ol.CUARTo10I of view:PrimLib.dffr(prim) in hierarchy view:work.top(top1) because there are no references to its outputs 
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 71MB peak: 76MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 63MB peak: 76MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 63MB peak: 76MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:15s; Memory used current: 71MB peak: 76MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:15s; Memory used current: 71MB peak: 76MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:15s; Memory used current: 71MB peak: 76MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name                    Fanout, notes                   
+------------------------------------------------------------------------------
+column[1] / Q                                 42                              
+column[2] / Q                                 47                              
+uart_0.uart_0.CUARTo0ol.CUARTOO1I[0] / Q      28                              
+uart_0.uart_0.CUARTo0ol.CUARTOO1I[1] / Q      28                              
+uart_0.uart_0.CUARTo0ol.CUARTOO1I[2] / Q      29                              
+uart_0.uart_0.CUARTo0ol.CUARTOO1I[3] / Q      29                              
+uart_0.uart_0.CUARTo0ol.CUARTOO1I[4] / Q      27                              
+uart_0.uart_0.CUARTo0ol.CUARTOO1I[5] / Q      27                              
+uart_0.uart_0.CUARTo0ol.CUARTOO1I[6] / Q      27                              
+uart_0.uart_0.CUARTo0ol.CUARTOO1I[7] / Q      27                              
+curpos[4] / Q                                 25                              
+state[5] / Q                                  60                              
+reset / Q                                     173 : 109 asynchronous set/reset
+char_rom0.un87_data[1] / Y                    48                              
+char_rom0.un87_data[2] / Y                    57                              
+char_rom0.un87_data[6] / Y                    28                              
+char_rom0.un87_data[3] / Y                    49                              
+char_rom0.data_1_i_a2_42[0] / Y               31                              
+char_rom0.un87_data[5] / Y                    83                              
+char_rom0.un87_data[4] / Y                    51                              
+char_rom0.un87_data[0] / Y                    48                              
+display0.i2c0.state_srsts_i_o2[0] / Y         42                              
+char_rom0.data_1_i_o2_16[0] / Y               27                              
+char_rom0.data_1_i_o2_1[0] / Y                34                              
+char_rom0.data_1_i_o2_2[0] / Y                37                              
+char_rom0.data_1_i_o2_2[1] / Y                31                              
+un24_state_ns / Y                             31                              
+un17_state_ns / Y                             32                              
+un28_state_ns_1 / Y                           122                             
+un21_char_0_0.ADD_5x5_fast_I21_Y_0 / Y        37                              
+un21_char_0_0.ADD_5x5_fast_I19_Y_0_x2 / Y     66                              
+un21_char_0_0.ADD_5x5_fast_I18_Y_0_x3 / Y     45                              
+un1_state_ns_2_2 / Y                          81                              
+==============================================================================
+
+@N: FP130 |Promoting Net clk_c on CLKBUF  clk_pad 
+@N: FP130 |Promoting Net reset_c_c on CLKINT  I_595 
+@N: FP130 |Promoting Net un28_state_ns on CLKINT  I_596 
+@N: FP130 |Promoting Net char_rom0.un87_data[5] on CLKINT  I_597 
+@N: FP130 |Promoting Net un1_state_ns_9_1 on CLKINT  I_598 
+@N: FP130 |Promoting Net un21_char_0_0.N_14_i on CLKINT  I_599 
+
+Finished technology mapping (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:16s; Memory used current: 104MB peak: 107MB)
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:16s; Memory used current: 104MB peak: 107MB)
+
+Replicating Combinational Instance un21_char_0_0.ADD_5x5_fast_I18_Y_0_x3, fanout 45 segments 2
+Replicating Combinational Instance un21_char_0_0.ADD_5x5_fast_I21_Y_0, fanout 37 segments 2
+Replicating Combinational Instance un17_state_ns, fanout 32 segments 2
+Replicating Combinational Instance un24_state_ns, fanout 31 segments 2
+Replicating Combinational Instance char_rom0.data_1_i_o2_2[1], fanout 31 segments 2
+Replicating Combinational Instance char_rom0.data_1_i_o2_2[0], fanout 37 segments 2
+Replicating Combinational Instance char_rom0.data_1_i_o2_1[0], fanout 34 segments 2
+Replicating Combinational Instance char_rom0.data_1_i_o2_16[0], fanout 27 segments 2
+Replicating Combinational Instance display0.i2c0.state_srsts_i_o2[0], fanout 42 segments 2
+Replicating Combinational Instance char_rom0.un87_data[0], fanout 49 segments 3
+Replicating Combinational Instance char_rom0.un87_data[4], fanout 53 segments 3
+Replicating Combinational Instance char_rom0.data_1_i_a2_42[0], fanout 31 segments 2
+Replicating Combinational Instance char_rom0.un87_data[3], fanout 49 segments 3
+Replicating Combinational Instance char_rom0.un87_data[6], fanout 28 segments 2
+Replicating Combinational Instance char_rom0.un87_data[2], fanout 60 segments 3
+Replicating Combinational Instance char_rom0.un87_data[1], fanout 49 segments 3
+Replicating Sequential Instance state[5], fanout 60 segments 3
+Replicating Sequential Instance curpos[4], fanout 26 segments 2
+Replicating Sequential Instance uart_0.uart_0.CUARTo0ol.CUARTOO1I[7], fanout 27 segments 2
+Replicating Sequential Instance uart_0.uart_0.CUARTo0ol.CUARTOO1I[6], fanout 27 segments 2
+Replicating Sequential Instance uart_0.uart_0.CUARTo0ol.CUARTOO1I[5], fanout 27 segments 2
+Replicating Sequential Instance uart_0.uart_0.CUARTo0ol.CUARTOO1I[4], fanout 27 segments 2
+Replicating Sequential Instance uart_0.uart_0.CUARTo0ol.CUARTOO1I[3], fanout 29 segments 2
+Replicating Sequential Instance uart_0.uart_0.CUARTo0ol.CUARTOO1I[2], fanout 29 segments 2
+Replicating Sequential Instance uart_0.uart_0.CUARTo0ol.CUARTOO1I[1], fanout 28 segments 2
+Replicating Sequential Instance uart_0.uart_0.CUARTo0ol.CUARTOO1I[0], fanout 28 segments 2
+Replicating Sequential Instance column[2], fanout 48 segments 2
+Replicating Sequential Instance column[1], fanout 43 segments 2
+
+Added 0 Buffers
+Added 34 Cells via replication
+	Added 13 Sequential Cells via replication
+	Added 21 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:16s; Memory used current: 105MB peak: 107MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 380 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 13 clock pin(s) of sequential element(s)
+0 instances converted, 13 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0002       clk                 port                   380        curpos_0[4]    
+=======================================================================================
+================================================== Gated/Generated Clocks ===================================================
+Clock Tree ID     Driving Element             Drive Element Type     Fanout     Sample Instance     Explanation              
+-----------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       char_rom0.data_1_sqmuxa     NOR2                   13         column_0[1]         No clocks found on inputs
+=============================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+Writing Analyst data base C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\top.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:17s; Memory used current: 103MB peak: 107MB)
+
+Writing EDIF Netlist and constraint files
+G-2012.09M-SP1 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:17s; Memory used current: 104MB peak: 107MB)
+
+@W: MT420 |Found inferred clock top|clk with period 10.00ns. Please declare a user-defined clock on object "p:clk"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sun Oct 06 21:58:22 2013
+#
+
+
+Top view:               top
+Library name:           IGLOO_V2
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.14, P = 3.70, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        igloo
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -36.365
+
+                   Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack       Type         Group              
+-----------------------------------------------------------------------------------------------------------------------
+top|clk            100.0 MHz     21.6 MHz      10.000        46.365        -36.365     inferred     Inferred_clkgroup_0
+System             100.0 MHz     NA            10.000        NA            NA          system       system_clkgroup    
+=======================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks             |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------
+Starting  Ending   |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------
+top|clk   System   |  10.000      -32.706  |  No paths    -      |  No paths    -      |  No paths    -    
+top|clk   top|clk  |  10.000      -36.365  |  No paths    -      |  No paths    -      |  No paths    -    
+===========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: top|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                           Starting                                           Arrival            
+Instance                                   Reference     Type         Pin     Net             Time        Slack  
+                                           Clock                                                                 
+-----------------------------------------------------------------------------------------------------------------
+uart_0.uart_0.CUARTo0ol.CUARTOO1I[6]       top|clk       DFN1E1C0     Q       rxdata[6]       1.771       -36.365
+uart_0.uart_0.CUARTo0ol.CUARTOO1I[7]       top|clk       DFN1E1C0     Q       rxdata[7]       1.771       -36.031
+uart_0.uart_0.CUARTo0ol.CUARTOO1I[1]       top|clk       DFN1E1C0     Q       rxdata[1]       1.771       -34.895
+uart_0.uart_0.CUARTo0ol.CUARTOO1I[0]       top|clk       DFN1E1C0     Q       rxdata[0]       1.771       -34.716
+uart_0.uart_0.CUARTo0ol.CUARTOO1I[4]       top|clk       DFN1E1C0     Q       rxdata[4]       1.771       -34.277
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0[5]     top|clk       DFN1E1C0     Q       rxdata_0[5]     1.771       -34.273
+curpos[0]                                  top|clk       DFN1         Q       curpos[0]       1.395       -34.269
+uart_0.uart_0.CUARTo0ol.CUARTOO1I[5]       top|clk       DFN1E1C0     Q       rxdata[5]       1.395       -34.014
+curpos[3]                                  top|clk       DFN1         Q       curpos[3]       1.771       -33.993
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0[4]     top|clk       DFN1E1C0     Q       rxdata_0[4]     1.771       -33.726
+=================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                Starting                                              Required            
+Instance        Reference     Type     Pin     Net                    Time         Slack  
+                Clock                                                                     
+------------------------------------------------------------------------------------------
+curpos[4]       top|clk       DFN1     D       ADD_5x5_fast_I18_Y     8.622        -36.365
+curpos_0[4]     top|clk       DFN1     D       ADD_5x5_fast_I18_Y     8.622        -36.365
+curpos[3]       top|clk       DFN1     D       ADD_5x5_fast_I17_Y     8.622        -34.565
+curpos[2]       top|clk       DFN1     D       ADD_5x5_fast_I16_Y     8.622        -33.801
+char[1]         top|clk       DLN1     D       char_1[1]              8.405        -32.706
+char[6]         top|clk       DLN1     D       char_1[6]              8.405        -32.706
+char[2]         top|clk       DLN1     D       char_1[2]              8.405        -32.602
+char[5]         top|clk       DLN1     D       char_1[5]              8.405        -32.602
+char[3]         top|clk       DLN1     D       char_1[3]              8.651        -32.581
+char[4]         top|clk       DLN1     D       char_1[4]              8.651        -32.539
+==========================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            1.378
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.622
+
+    - Propagation time:                      44.987
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -36.365
+
+    Number of logic level(s):                11
+    Starting point:                          uart_0.uart_0.CUARTo0ol.CUARTOO1I[6] / Q
+    Ending point:                            curpos[4] / D
+    The start point is clocked by            top|clk [rising] on pin CLK
+    The end   point is clocked by            top|clk [rising] on pin CLK
+
+Instance / Net                                                     Pin      Pin               Arrival     No. of    
+Name                                                  Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------
+uart_0.uart_0.CUARTo0ol.CUARTOO1I[6]                  DFN1E1C0     Q        Out     1.771     1.771       -         
+rxdata[6]                                             Net          -        -       4.895     -           13        
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_RNITSCM[6]          NOR2         B        In      -         6.665       -         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_RNITSCM[6]          NOR2         Y        Out     1.554     8.219       -         
+un19_state_ns_6_0                                     Net          -        -       0.773     -           1         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0_RNIKMOM[4]        NOR3A        A        In      -         8.992       -         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0_RNIKMOM[4]        NOR3A        Y        Out     1.595     10.587      -         
+un5_state_ns_6                                        Net          -        -       3.667     -           7         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0_RNIOSGD1_1[2]     NOR2B        A        In      -         14.254      -         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0_RNIOSGD1_1[2]     NOR2B        Y        Out     1.174     15.427      -         
+un19_state_ns                                         Net          -        -       2.844     -           4         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0_RNIGP1R2_0[2]     OR2          B        In      -         18.271      -         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0_RNIGP1R2_0[2]     OR2          Y        Out     1.236     19.508      -         
+un17_state_ns                                         Net          -        -       5.220     -           16        
+uart_0.uart_0.CUARTi01_RNI7P2Q3                       NOR3C        A        In      -         24.728      -         
+uart_0.uart_0.CUARTi01_RNI7P2Q3                       NOR3C        Y        Out     1.261     25.989      -         
+un1_curpos_0_sqmuxa_1_3                               Net          -        -       0.773     -           1         
+uart_0.uart_0.CUARTi01_RNIGA1GE                       OR3          C        In      -         26.762      -         
+uart_0.uart_0.CUARTi01_RNIGA1GE                       OR3          Y        Out     1.641     28.403      -         
+un1_curpos_0_sqmuxa                                   Net          -        -       3.074     -           5         
+curpos_RNIHV8NE[0]                                    MX2B         S        In      -         31.477      -         
+curpos_RNIHV8NE[0]                                    MX2B         Y        Out     1.153     32.629      -         
+un1_text_1_0_sqmuxa_1[4]                              Net          -        -       0.927     -           2         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I0_CO1             NOR3B        B        In      -         33.557      -         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I0_CO1             NOR3B        Y        Out     1.499     35.056      -         
+un1_text_1_0_sqmuxa_2.N83                             Net          -        -       1.938     -           3         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I9_Y               AO1          B        In      -         36.994      -         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I9_Y               AO1          Y        Out     1.361     38.355      -         
+un1_text_1_0_sqmuxa_2.N110                            Net          -        -       0.927     -           2         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I11_un1_Y          NOR3C        C        In      -         39.282      -         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I11_un1_Y          NOR3C        Y        Out     1.599     40.882      -         
+un1_text_1_0_sqmuxa_2.I11_un1_Y                       Net          -        -       0.773     -           1         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I18_Y              AX1D         A        In      -         41.654      -         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I18_Y              AX1D         Y        Out     2.406     44.060      -         
+ADD_5x5_fast_I18_Y                                    Net          -        -       0.927     -           2         
+curpos[4]                                             DFN1         D        In      -         44.987      -         
+====================================================================================================================
+Total path delay (propagation time + setup) of 46.365 is 19.628(42.3%) logic and 26.737(57.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            1.378
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.622
+
+    - Propagation time:                      44.987
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -36.365
+
+    Number of logic level(s):                11
+    Starting point:                          uart_0.uart_0.CUARTo0ol.CUARTOO1I[6] / Q
+    Ending point:                            curpos_0[4] / D
+    The start point is clocked by            top|clk [rising] on pin CLK
+    The end   point is clocked by            top|clk [rising] on pin CLK
+
+Instance / Net                                                     Pin      Pin               Arrival     No. of    
+Name                                                  Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------
+uart_0.uart_0.CUARTo0ol.CUARTOO1I[6]                  DFN1E1C0     Q        Out     1.771     1.771       -         
+rxdata[6]                                             Net          -        -       4.895     -           13        
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_RNITSCM[6]          NOR2         B        In      -         6.665       -         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_RNITSCM[6]          NOR2         Y        Out     1.554     8.219       -         
+un19_state_ns_6_0                                     Net          -        -       0.773     -           1         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0_RNIKMOM[4]        NOR3A        A        In      -         8.992       -         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0_RNIKMOM[4]        NOR3A        Y        Out     1.595     10.587      -         
+un5_state_ns_6                                        Net          -        -       3.667     -           7         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0_RNIOSGD1_1[2]     NOR2B        A        In      -         14.254      -         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0_RNIOSGD1_1[2]     NOR2B        Y        Out     1.174     15.427      -         
+un19_state_ns                                         Net          -        -       2.844     -           4         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0_RNIGP1R2_0[2]     OR2          B        In      -         18.271      -         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0_RNIGP1R2_0[2]     OR2          Y        Out     1.236     19.508      -         
+un17_state_ns                                         Net          -        -       5.220     -           16        
+uart_0.uart_0.CUARTi01_RNI7P2Q3                       NOR3C        A        In      -         24.728      -         
+uart_0.uart_0.CUARTi01_RNI7P2Q3                       NOR3C        Y        Out     1.261     25.989      -         
+un1_curpos_0_sqmuxa_1_3                               Net          -        -       0.773     -           1         
+uart_0.uart_0.CUARTi01_RNIGA1GE                       OR3          C        In      -         26.762      -         
+uart_0.uart_0.CUARTi01_RNIGA1GE                       OR3          Y        Out     1.641     28.403      -         
+un1_curpos_0_sqmuxa                                   Net          -        -       3.074     -           5         
+curpos_RNIHV8NE[0]                                    MX2B         S        In      -         31.477      -         
+curpos_RNIHV8NE[0]                                    MX2B         Y        Out     1.153     32.629      -         
+un1_text_1_0_sqmuxa_1[4]                              Net          -        -       0.927     -           2         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I0_CO1             NOR3B        B        In      -         33.557      -         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I0_CO1             NOR3B        Y        Out     1.499     35.056      -         
+un1_text_1_0_sqmuxa_2.N83                             Net          -        -       1.938     -           3         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I9_Y               AO1          B        In      -         36.994      -         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I9_Y               AO1          Y        Out     1.361     38.355      -         
+un1_text_1_0_sqmuxa_2.N110                            Net          -        -       0.927     -           2         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I11_un1_Y          NOR3C        C        In      -         39.282      -         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I11_un1_Y          NOR3C        Y        Out     1.599     40.882      -         
+un1_text_1_0_sqmuxa_2.I11_un1_Y                       Net          -        -       0.773     -           1         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I18_Y              AX1D         A        In      -         41.654      -         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I18_Y              AX1D         Y        Out     2.406     44.060      -         
+ADD_5x5_fast_I18_Y                                    Net          -        -       0.927     -           2         
+curpos_0[4]                                           DFN1         D        In      -         44.987      -         
+====================================================================================================================
+Total path delay (propagation time + setup) of 46.365 is 19.628(42.3%) logic and 26.737(57.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            1.378
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.622
+
+    - Propagation time:                      44.950
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -36.328
+
+    Number of logic level(s):                11
+    Starting point:                          uart_0.uart_0.CUARTo0ol.CUARTOO1I[6] / Q
+    Ending point:                            curpos[4] / D
+    The start point is clocked by            top|clk [rising] on pin CLK
+    The end   point is clocked by            top|clk [rising] on pin CLK
+
+Instance / Net                                                     Pin      Pin               Arrival     No. of    
+Name                                                  Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------
+uart_0.uart_0.CUARTo0ol.CUARTOO1I[6]                  DFN1E1C0     Q        Out     1.771     1.771       -         
+rxdata[6]                                             Net          -        -       4.895     -           13        
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_RNITSCM[6]          NOR2         B        In      -         6.665       -         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_RNITSCM[6]          NOR2         Y        Out     1.554     8.219       -         
+un19_state_ns_6_0                                     Net          -        -       0.773     -           1         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0_RNIKMOM[4]        NOR3A        A        In      -         8.992       -         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0_RNIKMOM[4]        NOR3A        Y        Out     1.595     10.587      -         
+un5_state_ns_6                                        Net          -        -       3.667     -           7         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0_RNIOSGD1_1[2]     NOR2B        A        In      -         14.254      -         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0_RNIOSGD1_1[2]     NOR2B        Y        Out     1.174     15.427      -         
+un19_state_ns                                         Net          -        -       2.844     -           4         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0_RNIGP1R2_0[2]     OR2          B        In      -         18.271      -         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0_RNIGP1R2_0[2]     OR2          Y        Out     1.236     19.508      -         
+un17_state_ns                                         Net          -        -       5.220     -           16        
+uart_0.uart_0.CUARTi01_RNI7P2Q3                       NOR3C        A        In      -         24.728      -         
+uart_0.uart_0.CUARTi01_RNI7P2Q3                       NOR3C        Y        Out     1.261     25.989      -         
+un1_curpos_0_sqmuxa_1_3                               Net          -        -       0.773     -           1         
+uart_0.uart_0.CUARTi01_RNIGA1GE                       OR3          C        In      -         26.762      -         
+uart_0.uart_0.CUARTi01_RNIGA1GE                       OR3          Y        Out     1.641     28.403      -         
+un1_curpos_0_sqmuxa                                   Net          -        -       3.074     -           5         
+un1_text_1_0_sqmuxa_2.un1_text_1_0_sqmuxa_1[3]        MX2          S        In      -         31.477      -         
+un1_text_1_0_sqmuxa_2.un1_text_1_0_sqmuxa_1[3]        MX2          Y        Out     1.153     32.629      -         
+un1_text_1_0_sqmuxa_1[3]                              Net          -        -       1.938     -           3         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I1_P0N             AO1A         C        In      -         34.567      -         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I1_P0N             AO1A         Y        Out     1.574     36.142      -         
+un1_text_1_0_sqmuxa_2.N87                             Net          -        -       0.927     -           2         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I9_Y               AO1          A        In      -         37.069      -         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I9_Y               AO1          Y        Out     1.249     38.318      -         
+un1_text_1_0_sqmuxa_2.N110                            Net          -        -       0.927     -           2         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I11_un1_Y          NOR3C        C        In      -         39.245      -         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I11_un1_Y          NOR3C        Y        Out     1.599     40.844      -         
+un1_text_1_0_sqmuxa_2.I11_un1_Y                       Net          -        -       0.773     -           1         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I18_Y              AX1D         A        In      -         41.617      -         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I18_Y              AX1D         Y        Out     2.406     44.022      -         
+ADD_5x5_fast_I18_Y                                    Net          -        -       0.927     -           2         
+curpos[4]                                             DFN1         D        In      -         44.950      -         
+====================================================================================================================
+Total path delay (propagation time + setup) of 46.328 is 19.591(42.3%) logic and 26.737(57.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            1.378
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.622
+
+    - Propagation time:                      44.950
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -36.328
+
+    Number of logic level(s):                11
+    Starting point:                          uart_0.uart_0.CUARTo0ol.CUARTOO1I[6] / Q
+    Ending point:                            curpos_0[4] / D
+    The start point is clocked by            top|clk [rising] on pin CLK
+    The end   point is clocked by            top|clk [rising] on pin CLK
+
+Instance / Net                                                     Pin      Pin               Arrival     No. of    
+Name                                                  Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------
+uart_0.uart_0.CUARTo0ol.CUARTOO1I[6]                  DFN1E1C0     Q        Out     1.771     1.771       -         
+rxdata[6]                                             Net          -        -       4.895     -           13        
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_RNITSCM[6]          NOR2         B        In      -         6.665       -         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_RNITSCM[6]          NOR2         Y        Out     1.554     8.219       -         
+un19_state_ns_6_0                                     Net          -        -       0.773     -           1         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0_RNIKMOM[4]        NOR3A        A        In      -         8.992       -         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0_RNIKMOM[4]        NOR3A        Y        Out     1.595     10.587      -         
+un5_state_ns_6                                        Net          -        -       3.667     -           7         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0_RNIOSGD1_1[2]     NOR2B        A        In      -         14.254      -         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0_RNIOSGD1_1[2]     NOR2B        Y        Out     1.174     15.427      -         
+un19_state_ns                                         Net          -        -       2.844     -           4         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0_RNIGP1R2_0[2]     OR2          B        In      -         18.271      -         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0_RNIGP1R2_0[2]     OR2          Y        Out     1.236     19.508      -         
+un17_state_ns                                         Net          -        -       5.220     -           16        
+uart_0.uart_0.CUARTi01_RNI7P2Q3                       NOR3C        A        In      -         24.728      -         
+uart_0.uart_0.CUARTi01_RNI7P2Q3                       NOR3C        Y        Out     1.261     25.989      -         
+un1_curpos_0_sqmuxa_1_3                               Net          -        -       0.773     -           1         
+uart_0.uart_0.CUARTi01_RNIGA1GE                       OR3          C        In      -         26.762      -         
+uart_0.uart_0.CUARTi01_RNIGA1GE                       OR3          Y        Out     1.641     28.403      -         
+un1_curpos_0_sqmuxa                                   Net          -        -       3.074     -           5         
+un1_text_1_0_sqmuxa_2.un1_text_1_0_sqmuxa_1[3]        MX2          S        In      -         31.477      -         
+un1_text_1_0_sqmuxa_2.un1_text_1_0_sqmuxa_1[3]        MX2          Y        Out     1.153     32.629      -         
+un1_text_1_0_sqmuxa_1[3]                              Net          -        -       1.938     -           3         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I1_P0N             AO1A         C        In      -         34.567      -         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I1_P0N             AO1A         Y        Out     1.574     36.142      -         
+un1_text_1_0_sqmuxa_2.N87                             Net          -        -       0.927     -           2         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I9_Y               AO1          A        In      -         37.069      -         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I9_Y               AO1          Y        Out     1.249     38.318      -         
+un1_text_1_0_sqmuxa_2.N110                            Net          -        -       0.927     -           2         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I11_un1_Y          NOR3C        C        In      -         39.245      -         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I11_un1_Y          NOR3C        Y        Out     1.599     40.844      -         
+un1_text_1_0_sqmuxa_2.I11_un1_Y                       Net          -        -       0.773     -           1         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I18_Y              AX1D         A        In      -         41.617      -         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I18_Y              AX1D         Y        Out     2.406     44.022      -         
+ADD_5x5_fast_I18_Y                                    Net          -        -       0.927     -           2         
+curpos_0[4]                                           DFN1         D        In      -         44.950      -         
+====================================================================================================================
+Total path delay (propagation time + setup) of 46.328 is 19.591(42.3%) logic and 26.737(57.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            1.378
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.622
+
+    - Propagation time:                      44.874
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -36.252
+
+    Number of logic level(s):                11
+    Starting point:                          uart_0.uart_0.CUARTo0ol.CUARTOO1I[6] / Q
+    Ending point:                            curpos[4] / D
+    The start point is clocked by            top|clk [rising] on pin CLK
+    The end   point is clocked by            top|clk [rising] on pin CLK
+
+Instance / Net                                                     Pin      Pin               Arrival     No. of    
+Name                                                  Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------
+uart_0.uart_0.CUARTo0ol.CUARTOO1I[6]                  DFN1E1C0     Q        Out     1.771     1.771       -         
+rxdata[6]                                             Net          -        -       4.895     -           13        
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_RNITSCM[6]          NOR2         B        In      -         6.665       -         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_RNITSCM[6]          NOR2         Y        Out     1.554     8.219       -         
+un19_state_ns_6_0                                     Net          -        -       0.773     -           1         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0_RNIKMOM[4]        NOR3A        A        In      -         8.992       -         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0_RNIKMOM[4]        NOR3A        Y        Out     1.595     10.587      -         
+un5_state_ns_6                                        Net          -        -       3.667     -           7         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0_RNIOSGD1_1[2]     NOR2B        A        In      -         14.254      -         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0_RNIOSGD1_1[2]     NOR2B        Y        Out     1.174     15.427      -         
+un19_state_ns                                         Net          -        -       2.844     -           4         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0_RNIGP1R2_0[2]     OR2          B        In      -         18.271      -         
+uart_0.uart_0.CUARTo0ol.CUARTOO1I_0_RNIGP1R2_0[2]     OR2          Y        Out     1.236     19.508      -         
+un17_state_ns                                         Net          -        -       5.220     -           16        
+uart_0.uart_0.CUARTi01_RNI7P2Q3                       NOR3C        A        In      -         24.728      -         
+uart_0.uart_0.CUARTi01_RNI7P2Q3                       NOR3C        Y        Out     1.261     25.989      -         
+un1_curpos_0_sqmuxa_1_3                               Net          -        -       0.773     -           1         
+uart_0.uart_0.CUARTi01_RNIGA1GE                       OR3          C        In      -         26.762      -         
+uart_0.uart_0.CUARTi01_RNIGA1GE                       OR3          Y        Out     1.641     28.403      -         
+un1_curpos_0_sqmuxa                                   Net          -        -       3.074     -           5         
+un1_text_1_0_sqmuxa_2.un1_text_1_0_sqmuxa_1[3]        MX2          S        In      -         31.477      -         
+un1_text_1_0_sqmuxa_2.un1_text_1_0_sqmuxa_1[3]        MX2          Y        Out     1.153     32.629      -         
+un1_text_1_0_sqmuxa_1[3]                              Net          -        -       1.938     -           3         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I1_G0N             NOR2B        A        In      -         34.567      -         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I1_G0N             NOR2B        Y        Out     1.174     35.741      -         
+un1_text_1_0_sqmuxa_2.N86                             Net          -        -       0.927     -           2         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I9_Y               AO1          C        In      -         36.668      -         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I9_Y               AO1          Y        Out     1.574     38.242      -         
+un1_text_1_0_sqmuxa_2.N110                            Net          -        -       0.927     -           2         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I11_un1_Y          NOR3C        C        In      -         39.169      -         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I11_un1_Y          NOR3C        Y        Out     1.599     40.769      -         
+un1_text_1_0_sqmuxa_2.I11_un1_Y                       Net          -        -       0.773     -           1         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I18_Y              AX1D         A        In      -         41.542      -         
+un1_text_1_0_sqmuxa_2.ADD_5x5_fast_I18_Y              AX1D         Y        Out     2.406     43.947      -         
+ADD_5x5_fast_I18_Y                                    Net          -        -       0.927     -           2         
+curpos[4]                                             DFN1         D        In      -         44.874      -         
+====================================================================================================================
+Total path delay (propagation time + setup) of 46.252 is 19.515(42.2%) logic and 26.737(57.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: AGL125V2_QFN132_STD
+Report for cell top.top1
+  Core Cell usage:
+              cell count     area count*area
+              AND2    20      1.0       20.0
+              AND3     4      1.0        4.0
+               AO1    70      1.0       70.0
+              AO1A    92      1.0       92.0
+              AO1B     3      1.0        3.0
+              AO1C    46      1.0       46.0
+              AO1D     6      1.0        6.0
+              AOI1    36      1.0       36.0
+             AOI1B     2      1.0        2.0
+               AX1     3      1.0        3.0
+              AX1A     2      1.0        2.0
+              AX1B    10      1.0       10.0
+              AX1C    13      1.0       13.0
+              AX1D     5      1.0        5.0
+              AX1E     2      1.0        2.0
+              AXO5     1      1.0        1.0
+              AXO7     1      1.0        1.0
+             AXOI4     1      1.0        1.0
+            CLKINT     5      0.0        0.0
+               GND     9      0.0        0.0
+               INV     4      1.0        4.0
+              MAJ3     1      1.0        1.0
+              MIN3     1      1.0        1.0
+               MX2   280      1.0      280.0
+              MX2A    12      1.0       12.0
+              MX2B     4      1.0        4.0
+              MX2C    10      1.0       10.0
+              NOR2   125      1.0      125.0
+             NOR2A   229      1.0      229.0
+             NOR2B   203      1.0      203.0
+              NOR3    25      1.0       25.0
+             NOR3A   259      1.0      259.0
+             NOR3B   138      1.0      138.0
+             NOR3C    98      1.0       98.0
+               OA1    12      1.0       12.0
+              OA1A     7      1.0        7.0
+              OA1B    25      1.0       25.0
+              OA1C    27      1.0       27.0
+              OAI1     6      1.0        6.0
+               OR2    90      1.0       90.0
+              OR2A    44      1.0       44.0
+              OR2B    19      1.0       19.0
+               OR3   117      1.0      117.0
+              OR3A     4      1.0        4.0
+              OR3B     3      1.0        3.0
+              OR3C     3      1.0        3.0
+               VCC     9      0.0        0.0
+               XA1     6      1.0        6.0
+              XA1A     1      1.0        1.0
+              XA1B     4      1.0        4.0
+              XA1C     9      1.0        9.0
+              XAI1     3      1.0        3.0
+             XAI1A     2      1.0        2.0
+             XNOR2    19      1.0       19.0
+              XOR2    49      1.0       49.0
+              XOR3     2      1.0        2.0
+
+
+              DFN1    62      1.0       62.0
+            DFN1C0    42      1.0       42.0
+            DFN1E0   192      1.0      192.0
+          DFN1E0C0    19      1.0       19.0
+          DFN1E0P0     1      1.0        1.0
+            DFN1E1     7      1.0        7.0
+          DFN1E1C0    48      1.0       48.0
+          DFN1E1P0     1      1.0        1.0
+            DFN1P0     8      1.0        8.0
+              DLN1    13      1.0       13.0
+                   -----          ----------
+             TOTAL  2574              2551.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF     1
+            OUTBUF     5
+           TRIBUFF     2
+                   -----
+             TOTAL     9
+
+
+Core Cells         : 2551 of 3072 (83%)
+IO Cells           : 9
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:17s; Memory used current: 26MB peak: 107MB)
+
+Process took 0h:00m:17s realtime, 0h:00m:17s cputime
+# Sun Oct 06 21:58:22 2013
+
+###########################################################]

@@ -1,0 +1,64 @@
+
+fsm_encoding {815611562} onehot
+
+fsm_state_encoding {815611562} waitfordraw {000001}
+
+fsm_state_encoding {815611562} loadpacket {000010}
+
+fsm_state_encoding {815611562} loadbyte {000100}
+
+fsm_state_encoding {815611562} holdbyte0 {001000}
+
+fsm_state_encoding {815611562} holdbyte1 {010000}
+
+fsm_state_encoding {815611562} finishburst {100000}
+
+fsm_registers {815611562} {state[0]}  {state[1]}  {state[2]}  {state[3]}  {state[4]}  {state[5]} 
+
+fsm_encoding {7871871} onehot
+
+fsm_state_encoding {7871871} idle {0000000000000000000001}
+
+fsm_state_encoding {7871871} start0 {0000000000000000000010}
+
+fsm_state_encoding {7871871} start1 {0000000000000000000100}
+
+fsm_state_encoding {7871871} start2 {0000000000000000001000}
+
+fsm_state_encoding {7871871} addr0 {0000000000000000010000}
+
+fsm_state_encoding {7871871} addr1 {0000000000000000100000}
+
+fsm_state_encoding {7871871} addr2 {0000000000000001000000}
+
+fsm_state_encoding {7871871} write0 {0000000000000010000000}
+
+fsm_state_encoding {7871871} write1 {0000000000000100000000}
+
+fsm_state_encoding {7871871} write2 {0000000000001000000000}
+
+fsm_state_encoding {7871871} ack0 {0000000000010000000000}
+
+fsm_state_encoding {7871871} ack1 {0000000000100000000000}
+
+fsm_state_encoding {7871871} ack2 {0000000001000000000000}
+
+fsm_state_encoding {7871871} send_byte0 {0000000010000000000000}
+
+fsm_state_encoding {7871871} send_byte1 {0000000100000000000000}
+
+fsm_state_encoding {7871871} send_byte2 {0000001000000000000000}
+
+fsm_state_encoding {7871871} send_byte_ack0 {0000010000000000000000}
+
+fsm_state_encoding {7871871} send_byte_ack1 {0000100000000000000000}
+
+fsm_state_encoding {7871871} send_byte_ack2 {0001000000000000000000}
+
+fsm_state_encoding {7871871} stop0 {0010000000000000000000}
+
+fsm_state_encoding {7871871} stop1 {0100000000000000000000}
+
+fsm_state_encoding {7871871} stop2 {1000000000000000000000}
+
+fsm_registers {7871871} {state[0]}  {state[1]}  {state[2]}  {state[3]}  {state[4]}  {state[5]}  {state[6]}  {state[7]}  {state[8]}  {state[9]}  {state[10]}  {state[11]}  {state[12]}  {state[13]}  {state[14]}  {state[15]}  {state[16]}  {state[17]}  {state[18]}  {state[19]}  {state[20]}  {state[21]} 

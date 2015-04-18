@@ -1,0 +1,13 @@
+@N: MF249 |Running in 32-bit mode.
+@N: MF667 |Clock conversion disabled 
+@N: BN362 :"c:\users\aaron\desktop\fpga2\fpga\hdl\top.vhd":132:1:132:2|Removing sequential instance data[7] of view:PrimLib.dffr(prim) in hierarchy view:work.top(top1) because there are no references to its outputs 
+@N: BN362 :"c:\users\aaron\desktop\fpga2\fpga\hdl\top.vhd":132:1:132:2|Removing sequential instance data[6] of view:PrimLib.dffr(prim) in hierarchy view:work.top(top1) because there are no references to its outputs 
+@N: BN362 :"c:\users\aaron\desktop\fpga2\fpga\hdl\top.vhd":132:1:132:2|Removing sequential instance data[5] of view:PrimLib.dffr(prim) in hierarchy view:work.top(top1) because there are no references to its outputs 
+@N: BN362 :"c:\users\aaron\desktop\fpga2\fpga\hdl\top.vhd":132:1:132:2|Removing sequential instance data[4] of view:PrimLib.dffr(prim) in hierarchy view:work.top(top1) because there are no references to its outputs 
+@N: BN362 :"c:\users\aaron\desktop\fpga2\fpga\hdl\top.vhd":132:1:132:2|Removing sequential instance data[3] of view:PrimLib.dffr(prim) in hierarchy view:work.top(top1) because there are no references to its outputs 
+@N: BN362 :"c:\users\aaron\desktop\fpga2\fpga\hdl\top.vhd":132:1:132:2|Removing sequential instance data[2] of view:PrimLib.dffr(prim) in hierarchy view:work.top(top1) because there are no references to its outputs 
+@N: BN362 :"c:\users\aaron\desktop\fpga2\fpga\hdl\top.vhd":132:1:132:2|Removing sequential instance data[1] of view:PrimLib.dffr(prim) in hierarchy view:work.top(top1) because there are no references to its outputs 
+@N: BN362 :"c:\users\aaron\desktop\fpga2\fpga\hdl\top.vhd":132:1:132:2|Removing sequential instance data[0] of view:PrimLib.dffr(prim) in hierarchy view:work.top(top1) because there are no references to its outputs 
+@N: BN362 :"c:\users\aaron\desktop\fpga2\fpga\hdl\top.vhd":132:1:132:2|Removing sequential instance we of view:PrimLib.dffr(prim) in hierarchy view:work.top(top1) because there are no references to its outputs 
+@N: FP130 |Promoting Net clk_c on CLKBUF  clk_pad 
+@N: FP130 |Promoting Net oled_reset_c_c on CLKINT  I_138 

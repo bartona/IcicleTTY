@@ -1,0 +1,71 @@
+ ** Message System Log
+ ** Database: 
+ ** Date:   Sat Sep 14 00:51:40 2013
+
+
+****************
+Macro Parameters
+****************
+
+Name                            : FIFO
+Family                          : PA3LCLP
+Output Format                   : VHDL
+Type                            : FIFO
+Write Enable                    : Active Low
+Read Clock                      : Rising
+Write Clock                     : Rising
+Reset                           : Active High
+Read Enable                     : Active Low
+Write Depth                     : 3
+Write Width                     : 1
+Read Depth                      : 3
+Read Width                      : 1
+Almost Full                     : 2
+Almost Empty                    : 1
+Flags                           : Static
+AFFlag Units                    : Write Words
+AEFlag Units                    : Read Words
+Read Pipe Mode1                 : No Pipe
+Count Read After Empty          : No
+Count Write After Full          : No
+Portname DataIn                 : DATA
+Portname DataOut                : Q
+Portname AE Port                : AEVAL
+Portname AF Port                : AFVAL
+Portname Write En               : WE
+Portname Read En                : RE
+Portname WClock                 : WCLOCK
+Portname RClock                 : RCLOCK
+Portname AE Flag                : AEMPTY
+Portname AF Flag                : AFULL
+Portname Full Flag              : FULL
+Portname Empty Flag             : EMPTY
+Portname Reset                  : RESET
+
+
+Cascade Configuration:
+     Block configuration        : 4096x1
+     Number of blocks depth wise: 1
+     Number of blocks width wise: 1
+
+**************
+Compile Report
+**************
+
+
+Netlist Resource Report
+=======================
+
+    CORE                       Used:      2  Total:   3072   (0.07%)
+    IO (W/ clocks)             Used:      0  Total:     84   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      0  Total:     18   (0.00%)
+    PLL                        Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      1  Total:      8   (12.50%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Wrote VHDL netlist to C:/Users/Aaron/Desktop/fpga2/FPGA/smartgen\FIFO\FIFO.vhd.
+
+ ** Log Ended:   Sat Sep 14 00:51:41 2013
+

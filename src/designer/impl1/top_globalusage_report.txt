@@ -1,0 +1,31 @@
+********************************************************************
+                            Global Usage Report
+********************************************************************
+  
+Product: Designer
+Release: v11.0
+Version: 11.0.0.23
+Date: Sun Oct 06 22:01:00 2013
+Design Name: top  Family: IGLOO  Die: AGL125V2  Package: 132 QFN
+Design State: Post-Layout
+
+The following nets have been routed to a chip global resource:
+
+    Fanout            Name
+    ----------------------
+    380               Net   : clk_c
+                      Driver: clk_pad/U0/U1/U_GL
+    183               Net   : reset_c_c
+                      Driver: reset_RNI3JG/U_GL
+    84                Net   : char_rom0.un87_data[5]
+                      Driver: I_597/U_GL
+    122               Net   : un28_state_ns
+                      Driver: uart_0/uart_0/CUARTo0ol/CUARTOO1I_0_RNICSAV4_0[2]/U_GL
+    66                Net   : un21_char_0_0.N_14_i
+                      Driver: I_599/U_GL
+    81                Net   : un1_state_ns_9_1
+                      Driver: state_RNI1O385_0[5]/U_GL
+
+
+
+

@@ -1,0 +1,2 @@
+@E: CD395 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":93:14:93:41|Constant width 25 does not match context width 7
+

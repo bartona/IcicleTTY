@@ -1,0 +1,431 @@
+Timing Report Min Delay Analysis
+
+SmartTime Version v11.0
+Microsemi Corporation - Actel Designer Software Release v11.0 (Version 11.0.0.23)
+Copyright (c) 1989-2013
+Date: Sun Oct 06 22:01:09 2013
+
+
+Design: top
+Family: IGLOO
+Die: AGL125V2
+Package: 132 QFN
+Temperature: COM
+Voltage: COM
+Speed Grade: STD
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Condition: BEST
+Max Operating Condition: WORST
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+-----------------------------------------------------
+SUMMARY
+
+Clock Domain:               clk
+Period (ns):                26.176
+Frequency (MHz):            38.203
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        0.701
+External Hold (ns):         0.620
+Min Clock-To-Out (ns):      3.812
+Max Clock-To-Out (ns):      48.219
+
+                            Input to Output
+Min Delay (ns):             N/A
+Max Delay (ns):             N/A
+
+END SUMMARY
+-----------------------------------------------------
+
+Clock Domain clk
+
+SET Register to Register
+
+Path 1
+  From:                        uart_0/uart_0/CUARTO1L[1]:CLK
+  To:                          uart_0/uart_0/CUARTIIOL/CUARTilo0[1]:D
+  Delay (ns):                  0.499
+  Slack (ns):
+  Arrival (ns):                1.909
+  Required (ns):
+  Hold (ns):                   0.000
+
+Path 2
+  From:                        uart_0/uart_0/CUARTO1L[5]:CLK
+  To:                          uart_0/uart_0/CUARTIIOL/CUARTilo0[5]:D
+  Delay (ns):                  0.499
+  Slack (ns):
+  Arrival (ns):                1.909
+  Required (ns):
+  Hold (ns):                   0.000
+
+Path 3
+  From:                        uart_0/uart_0/CUARTo0ol/CUARTOO1I_0[1]:CLK
+  To:                          uart_0/uart_0/CUARTO1L[1]:D
+  Delay (ns):                  0.499
+  Slack (ns):
+  Arrival (ns):                1.909
+  Required (ns):
+  Hold (ns):                   0.000
+
+Path 4
+  From:                        uart_0/uart_0/CUARTO1L[7]:CLK
+  To:                          uart_0/uart_0/CUARTIIOL/CUARTilo0[7]:D
+  Delay (ns):                  0.499
+  Slack (ns):
+  Arrival (ns):                1.909
+  Required (ns):
+  Hold (ns):                   0.000
+
+Path 5
+  From:                        uart_0/uart_0/CUARTo0ol/CUARToo0i[1]:CLK
+  To:                          uart_0/uart_0/CUARTo0ol/CUARToo0i[0]:D
+  Delay (ns):                  0.550
+  Slack (ns):
+  Arrival (ns):                1.909
+  Required (ns):
+  Hold (ns):                   0.000
+
+
+Expanded Path 1
+  From: uart_0/uart_0/CUARTO1L[1]:CLK
+  To: uart_0/uart_0/CUARTIIOL/CUARTilo0[1]:D
+  data arrival time                              1.909
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        clk
+               +     0.000          Clock source
+  0.000                        clk (r)
+               +     0.000          net: clk
+  0.000                        clk_pad/U0/U0:PAD (r)
+               +     0.544          cell: ADLIB:IOPAD_IN
+  0.544                        clk_pad/U0/U0:Y (r)
+               +     0.000          net: clk_pad/U0/NET1
+  0.544                        clk_pad/U0/U1:A (r)
+               +     0.347          cell: ADLIB:CLKIO
+  0.891                        clk_pad/U0/U1:Y (r)
+               +     0.519          net: clk_c
+  1.410                        uart_0/uart_0/CUARTO1L[1]:CLK (r)
+               +     0.358          cell: ADLIB:DFN1E1C0
+  1.768                        uart_0/uart_0/CUARTO1L[1]:Q (r)
+               +     0.141          net: uart_0/uart_0/CUARTO1L[1]
+  1.909                        uart_0/uart_0/CUARTIIOL/CUARTilo0[1]:D (r)
+                                    
+  1.909                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          clk
+               +     0.000          Clock source
+  N/C                          clk (r)
+               +     0.000          net: clk
+  N/C                          clk_pad/U0/U0:PAD (r)
+               +     0.544          cell: ADLIB:IOPAD_IN
+  N/C                          clk_pad/U0/U0:Y (r)
+               +     0.000          net: clk_pad/U0/NET1
+  N/C                          clk_pad/U0/U1:A (r)
+               +     0.347          cell: ADLIB:CLKIO
+  N/C                          clk_pad/U0/U1:Y (r)
+               +     0.558          net: clk_c
+  N/C                          uart_0/uart_0/CUARTIIOL/CUARTilo0[1]:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1E0C0
+  N/C                          uart_0/uart_0/CUARTIIOL/CUARTilo0[1]:D
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Hold
+
+Path 1
+  From:                        agl_uart_rxd
+  To:                          uart_0/uart_0/CUARTo0ol/CUARToo0i[2]:D
+  Delay (ns):                  1.104
+  Slack (ns):
+  Arrival (ns):                1.104
+  Required (ns):
+  Hold (ns):                   0.000
+  External Hold (ns):          0.620
+
+
+Expanded Path 1
+  From: agl_uart_rxd
+  To: uart_0/uart_0/CUARTo0ol/CUARToo0i[2]:D
+  data arrival time                              1.104
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        agl_uart_rxd (f)
+               +     0.000          net: agl_uart_rxd
+  0.000                        agl_uart_rxd_pad/U0/U0:PAD (f)
+               +     0.378          cell: ADLIB:IOPAD_IN
+  0.378                        agl_uart_rxd_pad/U0/U0:Y (f)
+               +     0.000          net: agl_uart_rxd_pad/U0/NET1
+  0.378                        agl_uart_rxd_pad/U0/U1:YIN (f)
+               +     0.084          cell: ADLIB:IOIN_IB
+  0.462                        agl_uart_rxd_pad/U0/U1:Y (f)
+               +     0.642          net: agl_uart_rxd_c
+  1.104                        uart_0/uart_0/CUARTo0ol/CUARToo0i[2]:D (f)
+                                    
+  1.104                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          clk
+               +     0.000          Clock source
+  N/C                          clk (r)
+               +     0.000          net: clk
+  N/C                          clk_pad/U0/U0:PAD (r)
+               +     0.700          cell: ADLIB:IOPAD_IN
+  N/C                          clk_pad/U0/U0:Y (r)
+               +     0.000          net: clk_pad/U0/NET1
+  N/C                          clk_pad/U0/U1:A (r)
+               +     0.446          cell: ADLIB:CLKIO
+  N/C                          clk_pad/U0/U1:Y (r)
+               +     0.578          net: clk_c
+  N/C                          uart_0/uart_0/CUARTo0ol/CUARToo0i[2]:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1E1C0
+  N/C                          uart_0/uart_0/CUARTo0ol/CUARToo0i[2]:D
+
+
+END SET External Hold
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        counter[23]:CLK
+  To:                          D1
+  Delay (ns):                  2.478
+  Slack (ns):
+  Arrival (ns):                3.812
+  Required (ns):
+  Clock to Out (ns):           3.812
+
+Path 2
+  From:                        display0/i2c0/state_i[21]:CLK
+  To:                          scl
+  Delay (ns):                  2.650
+  Slack (ns):
+  Arrival (ns):                3.997
+  Required (ns):
+  Clock to Out (ns):           3.997
+
+Path 3
+  From:                        uart_0/uart_0/CUARTIIOL/CUARTl0o0:CLK
+  To:                          agl_uart_txd
+  Delay (ns):                  2.672
+  Slack (ns):
+  Arrival (ns):                4.043
+  Required (ns):
+  Clock to Out (ns):           4.043
+
+Path 4
+  From:                        reset:CLK
+  To:                          D3
+  Delay (ns):                  2.976
+  Slack (ns):
+  Arrival (ns):                4.301
+  Required (ns):
+  Clock to Out (ns):           4.301
+
+Path 5
+  From:                        reset:CLK
+  To:                          oled_reset
+  Delay (ns):                  2.988
+  Slack (ns):
+  Arrival (ns):                4.313
+  Required (ns):
+  Clock to Out (ns):           4.313
+
+
+Expanded Path 1
+  From: counter[23]:CLK
+  To: D1
+  data arrival time                              3.812
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        clk
+               +     0.000          Clock source
+  0.000                        clk (r)
+               +     0.000          net: clk
+  0.000                        clk_pad/U0/U0:PAD (r)
+               +     0.544          cell: ADLIB:IOPAD_IN
+  0.544                        clk_pad/U0/U0:Y (r)
+               +     0.000          net: clk_pad/U0/NET1
+  0.544                        clk_pad/U0/U1:A (r)
+               +     0.347          cell: ADLIB:CLKIO
+  0.891                        clk_pad/U0/U1:Y (r)
+               +     0.443          net: clk_c
+  1.334                        counter[23]:CLK (r)
+               +     0.358          cell: ADLIB:DFN1
+  1.692                        counter[23]:Q (r)
+               +     0.663          net: counter_c[23]
+  2.355                        D1_pad/U0/U1:D (r)
+               +     0.505          cell: ADLIB:IOTRI_OB_EB
+  2.860                        D1_pad/U0/U1:DOUT (r)
+               +     0.000          net: D1_pad/U0/NET1
+  2.860                        D1_pad/U0/U0:D (r)
+               +     0.952          cell: ADLIB:IOPAD_TRI
+  3.812                        D1_pad/U0/U0:PAD (r)
+               +     0.000          net: D1
+  3.812                        D1 (r)
+                                    
+  3.812                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          clk
+               +     0.000          Clock source
+  N/C                          clk (r)
+                                    
+  N/C                          D1 (r)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+Path 1
+  From:                        reset:CLK
+  To:                          uart_0/uart_0/CUARTIIOL/CUARTilo0[1]:CLR
+  Delay (ns):                  1.577
+  Slack (ns):
+  Arrival (ns):                2.902
+  Required (ns):
+  Removal (ns):                0.000
+  Skew (ns):                   -0.124
+
+Path 2
+  From:                        reset:CLK
+  To:                          uart_0/uart_0/CUARTIIOL/CUARTilo0[5]:CLR
+  Delay (ns):                  1.577
+  Slack (ns):
+  Arrival (ns):                2.902
+  Required (ns):
+  Removal (ns):                0.000
+  Skew (ns):                   -0.124
+
+Path 3
+  From:                        reset:CLK
+  To:                          uart_0/uart_0/CUARTo0ol/CUARTi0ii[1]:CLR
+  Delay (ns):                  1.577
+  Slack (ns):
+  Arrival (ns):                2.902
+  Required (ns):
+  Removal (ns):                0.000
+  Skew (ns):                   -0.124
+
+Path 4
+  From:                        reset:CLK
+  To:                          uart_0/uart_0/CUARTo0ol/CUARToo0i[0]:CLR
+  Delay (ns):                  1.577
+  Slack (ns):
+  Arrival (ns):                2.902
+  Required (ns):
+  Removal (ns):                0.000
+  Skew (ns):                   -0.124
+
+Path 5
+  From:                        reset:CLK
+  To:                          uart_0/uart_0/CUARTo0ol/CUARTi0ii[4]:CLR
+  Delay (ns):                  1.565
+  Slack (ns):
+  Arrival (ns):                2.890
+  Required (ns):
+  Removal (ns):                0.000
+  Skew (ns):                   -0.111
+
+
+Expanded Path 1
+  From: reset:CLK
+  To: uart_0/uart_0/CUARTIIOL/CUARTilo0[1]:CLR
+  data arrival time                              2.902
+  data required time                         -   N/C
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        clk
+               +     0.000          Clock source
+  0.000                        clk (r)
+               +     0.000          net: clk
+  0.000                        clk_pad/U0/U0:PAD (r)
+               +     0.544          cell: ADLIB:IOPAD_IN
+  0.544                        clk_pad/U0/U0:Y (r)
+               +     0.000          net: clk_pad/U0/NET1
+  0.544                        clk_pad/U0/U1:A (r)
+               +     0.347          cell: ADLIB:CLKIO
+  0.891                        clk_pad/U0/U1:Y (r)
+               +     0.434          net: clk_c
+  1.325                        reset:CLK (r)
+               +     0.358          cell: ADLIB:DFN1
+  1.683                        reset:Q (r)
+               +     0.120          net: reset
+  1.803                        reset_RNI3JG:A (r)
+               +     0.646          cell: ADLIB:CLKINT
+  2.449                        reset_RNI3JG:Y (r)
+               +     0.453          net: reset_c_c
+  2.902                        uart_0/uart_0/CUARTIIOL/CUARTilo0[1]:CLR (r)
+                                    
+  2.902                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          clk
+               +     0.000          Clock source
+  N/C                          clk (r)
+               +     0.000          net: clk
+  N/C                          clk_pad/U0/U0:PAD (r)
+               +     0.544          cell: ADLIB:IOPAD_IN
+  N/C                          clk_pad/U0/U0:Y (r)
+               +     0.000          net: clk_pad/U0/NET1
+  N/C                          clk_pad/U0/U1:A (r)
+               +     0.347          cell: ADLIB:CLKIO
+  N/C                          clk_pad/U0/U1:Y (r)
+               +     0.558          net: clk_c
+  N/C                          uart_0/uart_0/CUARTIIOL/CUARTilo0[1]:CLK (r)
+               +     0.000          Library removal time: ADLIB:DFN1E0C0
+  N/C                          uart_0/uart_0/CUARTIIOL/CUARTilo0[1]:CLR
+
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Removal
+
+No Path
+
+END SET External Removal
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Path set Pin to Pin
+
+SET Input to Output
+
+No Path
+
+END SET Input to Output
+
+----------------------------------------------------
+
+Path set User Sets
+

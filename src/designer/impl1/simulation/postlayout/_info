@@ -1,0 +1,71 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Aaron\Desktop\fpga2\FPGA\simulation
+Etest
+Z1 w1380153180
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Aaron\Desktop\fpga2\FPGA\simulation
+Z5 8C:/Users/Aaron/Desktop/fpga2/FPGA/stimulus/test.vhd
+Z6 FC:/Users/Aaron/Desktop/fpga2/FPGA/stimulus/test.vhd
+l0
+L32
+VLjeLezocbJb^koF7DN0hk3
+!s100 QD[`VDe@JQ6M1MfZ=_OCm1
+Z7 OW;C;10.1c;51
+31
+!i10b 1
+Z8 !s108 1380156823.741000
+Z9 !s90 -93|-explicit|-work|postlayout|C:/Users/Aaron/Desktop/fpga2/FPGA/stimulus/test.vhd|
+Z10 !s107 C:/Users/Aaron/Desktop/fpga2/FPGA/stimulus/test.vhd|
+Z11 o-93 -explicit -work postlayout -O0
+Abehavioral
+R2
+R3
+Z12 DEx4 work 4 test 0 22 LjeLezocbJb^koF7DN0hk3
+l65
+L35
+Z13 VNF]<>85Ij56nNSGI]VOQf2
+Z14 !s100 3XV:>acMX8MCN]jFLJGQ_3
+R7
+31
+!i10b 1
+R8
+R9
+R10
+R11
+Etop
+Z15 w1380156817
+R2
+R3
+R4
+Z16 8C:/Users/Aaron/Desktop/fpga2/FPGA/designer/impl1/top_ba.vhd
+Z17 FC:/Users/Aaron/Desktop/fpga2/FPGA/designer/impl1/top_ba.vhd
+l0
+L9
+V`[<mo]Lg@HO@1X>HlTLEW1
+R7
+31
+Z18 !s108 1380156822.899000
+Z19 !s90 -93|-explicit|-work|postlayout|C:/Users/Aaron/Desktop/fpga2/FPGA/designer/impl1/top_ba.vhd|
+Z20 !s107 C:/Users/Aaron/Desktop/fpga2/FPGA/designer/impl1/top_ba.vhd|
+R11
+!s100 <Yie^HFD[lO`6>7UzlzMj1
+!i10b 1
+Adef_arch
+R2
+R3
+DEx4 work 3 top 0 22 `[<mo]Lg@HO@1X>HlTLEW1
+l1326
+L24
+V@2:b7H_hnjaK^[^H^6CBE3
+R7
+31
+R18
+R19
+R20
+R11
+!s100 @IP]boigQP8;n@=_cZgAz3
+!i10b 1

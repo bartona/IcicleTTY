@@ -1,0 +1,85 @@
+%%% protect protected_file
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|work.top|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-encrypt|-pro|-lite|-ll|2000|-ui|-fid2|-ram|-sharing|on|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|work|-lib|work|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|COREUART_LIB|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_v11.0\\Synopsys\\synplify_G201209MSP1\\bin\\c_vhdl.exe":1361377116
+#CUR:"C:\\Microsemi\\Libero_v11.0\\Synopsys\\synplify_G201209MSP1\\lib\\vhd2008\\location.map":1360963878
+#CUR:"C:\\Microsemi\\Libero_v11.0\\Synopsys\\synplify_G201209MSP1\\lib\\vhd2008\\std.vhd":1360945954
+#CUR:"C:\\Microsemi\\Libero_v11.0\\Synopsys\\synplify_G201209MSP1\\lib\\vhd\\snps_haps_pkg.vhd":1360945954
+#CUR:"C:\\Microsemi\\Libero_v11.0\\Synopsys\\synplify_G201209MSP1\\lib\\vhd2008\\std1164.vhd":1360945954
+#CUR:"C:\\Microsemi\\Libero_v11.0\\Synopsys\\synplify_G201209MSP1\\lib\\vhd2008\\std_textio.vhd":1360945954
+#CUR:"C:\\Microsemi\\Libero_v11.0\\Synopsys\\synplify_G201209MSP1\\lib\\vhd2008\\numeric.vhd":1360945954
+#CUR:"C:\\Microsemi\\Libero_v11.0\\Synopsys\\synplify_G201209MSP1\\lib\\vhd\\umr_capim.vhd":1360945954
+#CUR:"C:\\Microsemi\\Libero_v11.0\\Synopsys\\synplify_G201209MSP1\\lib\\vhd2008\\arith.vhd":1360945954
+#CUR:"C:\\Microsemi\\Libero_v11.0\\Synopsys\\synplify_G201209MSP1\\lib\\vhd2008\\unsigned.vhd":1360945954
+#CUR:"C:\\Users\\Aaron\\Desktop\\fpga2\\FPGA\\hdl\\i2c.vhd":1381111045
+#CUR:"C:\\Users\\Aaron\\Desktop\\fpga2\\FPGA\\hdl\\display.vhd":1381076735
+#CUR:"C:\\Users\\Aaron\\Desktop\\fpga2\\FPGA\\component\\work\\uart\\uart_0\\rtl\\vhdl\\core_obfuscated\\Clock_gen.vhd":1380682327
+#CUR:"C:\\Users\\Aaron\\Desktop\\fpga2\\FPGA\\component\\work\\uart\\uart_0\\rtl\\vhdl\\core_obfuscated\\Tx_async.vhd":1380682327
+#CUR:"C:\\Users\\Aaron\\Desktop\\fpga2\\FPGA\\component\\work\\uart\\uart_0\\rtl\\vhdl\\core_obfuscated\\Rx_async.vhd":1380682327
+#CUR:"C:\\Users\\Aaron\\Desktop\\fpga2\\FPGA\\component\\work\\uart\\uart_0\\rtl\\vhdl\\core_obfuscated\\fifo_256x8_igloo.vhd":1380682327
+#CUR:"C:\\Users\\Aaron\\Desktop\\fpga2\\FPGA\\component\\work\\uart\\uart_0\\rtl\\vhdl\\core_obfuscated\\CoreUART.vhd":1380682327
+#CUR:"C:\\Users\\Aaron\\Desktop\\fpga2\\FPGA\\component\\work\\uart\\uart_0\\rtl\\vhdl\\core_obfuscated\\components.vhd":1380682327
+#CUR:"C:\\Users\\Aaron\\Desktop\\fpga2\\FPGA\\component\\work\\uart\\uart.vhd":1380682327
+#CUR:"C:\\Users\\Aaron\\Desktop\\fpga2\\FPGA\\hdl\\char_rom.vhd":1381100332
+#CUR:"C:\\Users\\Aaron\\Desktop\\fpga2\\FPGA\\hdl\\top.vhd":1381086835
+0 "C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd" vhdl
+1 "C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd" vhdl
+2 "C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd" vhdl
+3 "C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Tx_async.vhd" vhdl
+4 "C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Rx_async.vhd" vhdl
+5 "C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\fifo_256x8_igloo.vhd" vhdl
+6 "C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd" vhdl
+7 "C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\components.vhd" vhdl
+8 "C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart.vhd" vhdl
+9 "C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\char_rom.vhd" vhdl
+10 "C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 0 
+2 -1
+3 -1
+4 -1
+5 -1
+6 2 3 4 5 
+7 -1
+8 6 7 
+9 -1
+10 1 9 8 7 
+
+# Dependency Lists (Users Of)
+0 1 
+1 10 
+2 6 
+3 6 
+4 6 
+5 6 
+6 8 
+7 10 8 
+8 10 
+9 10 
+10 -1
+
+# Design Unit to File Association
+arch work i2c i2c_def 0
+module work i2c 0
+arch work display def_arch 1
+module work display 1
+arch coreuart_lib uart_uart_0_clock_gen cuarti 2
+module coreuart_lib uart_uart_0_clock_gen 2
+arch coreuart_lib uart_uart_0_tx_async cuarti1 3
+module coreuart_lib uart_uart_0_tx_async 3
+arch coreuart_lib uart_uart_0_rx_async cuarti1 4
+module coreuart_lib uart_uart_0_rx_async 4
+arch coreuart_lib uart_uart_0_fifo_256x8_pa3 cuarti1 5
+module coreuart_lib uart_uart_0_fifo_256x8_pa3 5
+arch coreuart_lib uart_uart_0_fifo_256x8 cuarti1 5
+module coreuart_lib uart_uart_0_fifo_256x8 5
+arch coreuart_lib uart_uart_0_coreuart cuarti1 6
+module coreuart_lib uart_uart_0_coreuart 6
+arch work uart rtl 8
+module work uart 8
+arch work char_rom def_arch 9
+module work char_rom 9
+arch work top top1 10
+module work top 10

@@ -1,0 +1,17 @@
+C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\bin\c_vhdl.exe  -osyn  C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\synwork\top_compiler.srs  -top  work.top  -prodtype  synplify_pro  -nram -fixsmult   -divnmod -encrypt  -pro  -dmgen  C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\dm  -lite -ll 2000   -ui -fid2 -ram -sharing on  -autosm -vhdl2008  -ignore_undefined_lib  -lib work C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd -lib work C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd -lib COREUART_LIB C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd -lib COREUART_LIB C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Tx_async.vhd -lib COREUART_LIB C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Rx_async.vhd -lib COREUART_LIB C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\fifo_256x8_igloo.vhd -lib COREUART_LIB C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd -lib COREUART_LIB C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\components.vhd -lib work C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart.vhd -lib work C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\char_rom.vhd -lib work C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd -loga  C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\top.srr 
+rc:0 success:1
+C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\synwork\top_compiler.srs|o|1381111082|37784
+C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd|i|1381111045|7008
+C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd|i|1381076735|7964
+C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd|i|1380682327|4619
+C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Tx_async.vhd|i|1380682327|5229
+C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Rx_async.vhd|i|1380682327|8488
+C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\fifo_256x8_igloo.vhd|i|1380682327|5710
+C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd|i|1380682327|10742
+C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\components.vhd|i|1380682327|908
+C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart.vhd|i|1380682327|6620
+C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\char_rom.vhd|i|1381100332|9313
+C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd|i|1381086835|9195
+C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\top.srr|o|1381111082|29561
+C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\bin\c_vhdl.exe|i|1361377116|1897984
+C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\bin64\c_vhdl.exe|i|1361377124|5352960

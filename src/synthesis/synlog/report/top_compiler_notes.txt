@@ -1,0 +1,29 @@
+@N|Running in 32-bit mode
+@N: CD720 :"C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ns
+@N:"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":34:7:34:9|Top entity is set to top.
+@N: CD231 :"C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\lib\vhd2008\std1164.vhd":913:16:913:17|Using onehot encoding for type mvl9plus ('U'="1000000000")
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":34:7:34:9|Synthesizing work.top.top1 
+@N: CD231 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":77:12:77:13|Using onehot encoding for type statet (onreset="100000")
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart.vhd":20:7:20:10|Synthesizing work.uart.rtl 
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":16:7:16:26|Synthesizing coreuart_lib.uart_uart_0_coreuart.cuarti1 
+@N: CD364 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":395:0:395:7|Removed redundant assignment
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":16:7:16:26|Synthesizing coreuart_lib.uart_uart_0_rx_async.cuarti1 
+@N: CD233 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":41:15:41:16|Using sequential encoding for type cuartoiii
+@N: CD364 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":182:0:182:8|Removed redundant assignment
+@N: CL177 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":325:0:325:1|Sharing sequential element CUARTL10I.
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":16:7:16:26|Synthesizing coreuart_lib.uart_uart_0_tx_async.cuarti1 
+@N: CD364 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":228:0:228:8|Removed redundant assignment
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd":16:7:16:27|Synthesizing coreuart_lib.uart_uart_0_clock_gen.cuarti 
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\char_rom.vhd":25:7:25:14|Synthesizing work.char_rom.def_arch 
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":29:7:29:13|Synthesizing work.display.def_arch 
+@N: CD231 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":55:12:55:13|Using onehot encoding for type statet (waitfordraw="100000")
+@N: CD630 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":35:7:35:9|Synthesizing work.i2c.i2c_def 
+@N: CD231 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":59:13:59:14|Using onehot encoding for type state_t (idle="1000000000000000000000")
+@N: CD364 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":189:3:189:9|Removed redundant assignment
+@N: CD364 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":202:3:202:9|Removed redundant assignment
+@N: CL201 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\i2c.vhd":88:1:88:2|Trying to extract state machine for register state
+@N: CL201 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\display.vhd":156:1:156:2|Trying to extract state machine for register state
+@N: CL201 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":105:0:105:1|Trying to extract state machine for register CUARTolo0
+@N: CL201 :"C:\Users\Aaron\Desktop\fpga2\FPGA\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":196:0:196:1|Trying to extract state machine for register CUARToool
+@N: CL201 :"C:\Users\Aaron\Desktop\fpga2\FPGA\hdl\top.vhd":244:1:244:2|Trying to extract state machine for register state
+

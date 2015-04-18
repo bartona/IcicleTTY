@@ -1,0 +1,220 @@
+Actel Designer Software
+Version: 11.0.0.23
+Release: v11.0
+
+Info: The design top.adb was last modified by software version 11.0.0.23.
+Opened an existing Libero design top.adb.
+'BA_NAME' set to 'top_ba'
+'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
+'IDE_DESIGNERVIEW_COUNT' set to '1'
+'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
+'IDE_DESIGNERVIEW_REVNUM0' set to '1'
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'C:\Users\Aaron\Desktop\fpga2\FPGA\designer'
+'IDE_DESIGNERVIEW_LASTREV' set to '1'
+
+ Netlist Reading Time = 1.0 seconds
+Imported the file:
+   C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\top.edn
+
+The Import command succeeded ( 00:00:24 )
+=====================================================================
+Parameters used to run compile:
+===============================
+
+Family      : IGLOO
+Device      : AGL125V2
+Package     : 132 QFN
+Source      : C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\top.edn
+Format      : EDIF
+Topcell     : top
+Speed grade : STD
+Temp        : 0:25:70
+Voltage     : 1.26:1.20:1.14
+
+Keep Existing Physical Constraints : Yes
+Keep Existing Timing Constraints   : Yes
+
+pdc_abort_on_error                 : Yes
+pdc_eco_display_unmatched_objects  : No
+pdc_eco_max_warnings               : 10000
+
+demote_globals                     : No
+promote_globals                    : No
+localclock_max_shared_instances    : 12
+localclock_buffer_tree_max_fanout  : 12
+
+combine_register                   : No
+delete_buffer_tree                 : No
+
+report_high_fanout_nets_limit      : 10
+
+=====================================================================
+Compile starts ...
+
+Warning: Top level port sw1 is not connected to any IO pad
+Warning: Top level port SW5 is not connected to any IO pad
+
+Netlist Optimization Report
+===========================
+
+Optimized macros:
+  - Dangling net drivers:   0
+  - Buffers:                0
+  - Inverters:              0
+  - Tieoff:                 0
+  - Logic combining:        79
+
+    Total macros optimized  79
+
+There were 0 error(s) and 2 warning(s) in this design.
+=====================================================================
+
+Reading previous post-compile physical placement constraints.
+
+
+There were 0 error(s) and 0 warning(s).
+
+=====================================================================
+Compile report:
+===============
+
+    CORE                       Used:   2472  Total:   3072   (80.47%)
+    IO (W/ clocks)             Used:      9  Total:     84   (10.71%)
+    GLOBAL (Chip+Quadrant)     Used:      6  Total:     18   (33.33%)
+    PLL                        Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      0  Total:      8   (0.00%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Global Information:
+
+    Type            | Used   | Total
+    ----------------|--------|--------------
+    Chip global     | 6      | 6  (100.00%)*
+    Quadrant global | 0      | 12 (0.00%)
+
+    (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
+        or Physical Design Constraints (PDC).
+        They may also be assigned to Quadrant globals automatically during Layout.
+
+Core Information:
+
+    Type    | Instances    | Core tiles
+    --------|--------------|-----------
+    COMB    | 2079         | 2079
+    SEQ     | 393          | 393
+
+I/O Function:
+
+    Type                          | w/o register  | w/ register  | w/ DDR register
+    ------------------------------|---------------|--------------|----------------
+    Input I/O                     | 2             | 0            | 0
+    Output I/O                    | 7             | 0            | 0
+    Bidirectional I/O             | 0             | 0            | 0
+    Differential Input I/O Pairs  | 0             | 0            | 0
+    Differential Output I/O Pairs | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVCMOS12                        | 1.20v | N/A   | 2     | 7      | 0
+
+I/O Placement:
+
+    Locked  :   9 ( 100.00% )
+    Placed  :   0
+    UnPlaced:   0
+
+Net information report:
+=======================
+
+The following nets have been assigned to a chip global resource:
+    Fanout  Type          Name
+    --------------------------
+    380     CLK_NET       Net   : clk_c
+                          Driver: clk_pad
+                          Source: NETLIST
+    183     INT_NET       Net   : reset_c_c
+                          Driver: reset_RNI3JG
+                          Source: NETLIST
+    122     INT_NET       Net   : un28_state_ns
+                          Driver: uart_0/uart_0/CUARTo0ol/CUARTOO1I_0_RNICSAV4_0[2]
+                          Source: NETLIST
+    84      INT_NET       Net   : char_rom0.un87_data[5]
+                          Driver: I_597
+                          Source: NETLIST
+    81      INT_NET       Net   : un1_state_ns_9_1
+                          Driver: state_RNI1O385_0[5]
+                          Source: NETLIST
+    66      INT_NET       Net   : un21_char_0_0.N_14_i
+                          Driver: I_599
+                          Source: NETLIST
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    24      INT_NET       Net   : column[2]
+                          Driver: column[2]
+    24      INT_NET       Net   : un1_curpos44_9_1
+                          Driver: curpos_0_RNIAAGC2[4]
+    24      INT_NET       Net   : column_0[2]
+                          Driver: column_0[2]
+    23      INT_NET       Net   : un21_char_0[1]
+                          Driver: un21_char_0_0_ADD_5x5_fast_I18_Y_0_x3_0
+    23      INT_NET       Net   : char_rom0/N_57
+                          Driver: char_rom0/data_1_i_o2_14[1]
+    23      INT_NET       Net   : char_rom0/N_69
+                          Driver: char_rom0/data_1_i_o2_4[0]
+    22      INT_NET       Net   : column[0]
+                          Driver: column[0]
+    22      INT_NET       Net   : un21_char[1]
+                          Driver: un21_char_0_0_ADD_5x5_fast_I18_Y_0_x3
+    22      INT_NET       Net   : column_0[1]
+                          Driver: column_0[1]
+    22      INT_NET       Net   : char_rom0/N_599
+                          Driver: char_rom0/data_1_0_a2_43[6]
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    24      INT_NET       Net   : column[2]
+                          Driver: column[2]
+    24      INT_NET       Net   : un1_curpos44_9_1
+                          Driver: curpos_0_RNIAAGC2[4]
+    24      INT_NET       Net   : column_0[2]
+                          Driver: column_0[2]
+    23      INT_NET       Net   : un21_char_0[1]
+                          Driver: un21_char_0_0_ADD_5x5_fast_I18_Y_0_x3_0
+    23      INT_NET       Net   : char_rom0/N_57
+                          Driver: char_rom0/data_1_i_o2_14[1]
+    23      INT_NET       Net   : char_rom0/N_69
+                          Driver: char_rom0/data_1_i_o2_4[0]
+    22      INT_NET       Net   : column[0]
+                          Driver: column[0]
+    22      INT_NET       Net   : un21_char[1]
+                          Driver: un21_char_0_0_ADD_5x5_fast_I18_Y_0_x3
+    22      INT_NET       Net   : column_0[1]
+                          Driver: column_0[1]
+    22      INT_NET       Net   : char_rom0/N_599
+                          Driver: char_rom0/data_1_0_a2_43[6]
+====================
+Flash*Freeze report:
+====================
+
+The design does not use the Flash*Freeze feature.
+
+====================
+
+The Compile command succeeded ( 00:00:13 )
+Wrote status report to file: top_compile_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Design saved to file C:\Users\Aaron\Desktop\fpga2\FPGA\designer\impl1\top.adb.
+
+The Execute Script command succeeded ( 00:00:43 )
+Design closed.
+

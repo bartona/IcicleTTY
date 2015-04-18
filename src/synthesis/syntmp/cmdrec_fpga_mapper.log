@@ -1,0 +1,15 @@
+C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\bin\m_proasic.exe  -prodtype synplify_pro -encrypt  -pro  -rundir  C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis  -part AGL125V2  -package QFN132  -grade STD   -globalthreshold 50 -maxfan 24 -opcond COMWC     -report_path 0   -RWCheckOnRam 0     -summaryfile C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\synlog\report\top_fpga_mapper.xml -top_level_module  work.top  -flow mapping  -mp 1 -prjfile  C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\scratchproject.prs  -implementation synthesis -licensetype  synplifypro_actel  -oedif  C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\top.edn  -freq 100.000  C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\synwork\top_premap.srd  -sap  C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\top.sap  -otap  C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\top.tap  -omap  C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\top.map  -devicelib  C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\lib\proasic\igloo.v  -sap  C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\top.sap  -ologparam  C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\syntmp\top.plg  -osyn  C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\top.srm  -prjdir  C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\  -prjname  top_syn  -log  C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\synlog\top_fpga_mapper.srr 
+rc:1 success:1
+C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\scratchproject.prs|o|1381100373|2651
+C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\top.edn|o|1381111102|1084195
+C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\synwork\top_premap.srd|i|1381111084|55408
+C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\top.sap|o|1381111084|12169
+C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\top.tap|o|0|0
+C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\top.map|o|1381111102|28
+C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\lib\proasic\igloo.v|i|1360945790|50704
+C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\top.sap|o|1381111084|12169
+C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\syntmp\top.plg|o|1381111102|1287
+C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\top.srm|o|1381111102|204915
+C:\Users\Aaron\Desktop\fpga2\FPGA\synthesis\synlog\top_fpga_mapper.srr|o|1381111102|56710
+C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\bin\m_proasic.exe|i|1360945622|11409920
+C:\Microsemi\Libero_v11.0\Synopsys\synplify_G201209MSP1\bin64\m_proasic.exe|i|1360945634|13812224

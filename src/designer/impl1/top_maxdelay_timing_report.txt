@@ -1,0 +1,541 @@
+Timing Report Max Delay Analysis
+
+SmartTime Version v11.0
+Microsemi Corporation - Actel Designer Software Release v11.0 (Version 11.0.0.23)
+Copyright (c) 1989-2013
+Date: Sun Oct 06 22:01:09 2013
+
+
+Design: top
+Family: IGLOO
+Die: AGL125V2
+Package: 132 QFN
+Temperature: COM
+Voltage: COM
+Speed Grade: STD
+Design State: Post-Layout
+Data source: Silicon verified
+Min Operating Condition: BEST
+Max Operating Condition: WORST
+Using Enhanced Min Delay Analysis
+Scenario for Timing Analysis: Primary
+
+
+-----------------------------------------------------
+SUMMARY
+
+Clock Domain:               clk
+Period (ns):                26.176
+Frequency (MHz):            38.203
+Required Period (ns):       N/A
+Required Frequency (MHz):   N/A
+External Setup (ns):        0.701
+External Hold (ns):         0.620
+Min Clock-To-Out (ns):      3.812
+Max Clock-To-Out (ns):      48.219
+
+                            Input to Output
+Min Delay (ns):             N/A
+Max Delay (ns):             N/A
+
+END SUMMARY
+-----------------------------------------------------
+
+Clock Domain clk
+
+SET Register to Register
+
+Path 1
+  From:                        uart_0/uart_0/CUARTo0ol/CUARTOO1I[0]:CLK
+  To:                          curpos_0[4]:D
+  Delay (ns):                  24.863
+  Slack (ns):
+  Arrival (ns):                28.786
+  Required (ns):
+  Setup (ns):                  1.112
+  Minimum Period (ns):         26.176
+
+Path 2
+  From:                        uart_0/uart_0/CUARTo0ol/CUARTOO1I[0]:CLK
+  To:                          curpos[4]:D
+  Delay (ns):                  24.863
+  Slack (ns):
+  Arrival (ns):                28.786
+  Required (ns):
+  Setup (ns):                  1.112
+  Minimum Period (ns):         26.156
+
+Path 3
+  From:                        uart_0/uart_0/CUARTo0ol/CUARTOO1I[1]:CLK
+  To:                          curpos_0[4]:D
+  Delay (ns):                  24.600
+  Slack (ns):
+  Arrival (ns):                28.394
+  Required (ns):
+  Setup (ns):                  1.112
+  Minimum Period (ns):         25.784
+
+Path 4
+  From:                        uart_0/uart_0/CUARTo0ol/CUARTOO1I[1]:CLK
+  To:                          curpos[4]:D
+  Delay (ns):                  24.600
+  Slack (ns):
+  Arrival (ns):                28.394
+  Required (ns):
+  Setup (ns):                  1.112
+  Minimum Period (ns):         25.764
+
+Path 5
+  From:                        uart_0/uart_0/CUARTo0ol/CUARTOO1I[6]:CLK
+  To:                          curpos_0[4]:D
+  Delay (ns):                  24.263
+  Slack (ns):
+  Arrival (ns):                28.057
+  Required (ns):
+  Setup (ns):                  1.112
+  Minimum Period (ns):         25.447
+
+
+Expanded Path 1
+  From: uart_0/uart_0/CUARTo0ol/CUARTOO1I[0]:CLK
+  To: curpos_0[4]:D
+  data required time                             N/C
+  data arrival time                          -   28.786
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        clk
+               +     0.000          Clock source
+  0.000                        clk (r)
+               +     0.000          net: clk
+  0.000                        clk_pad/U0/U0:PAD (r)
+               +     1.590          cell: ADLIB:IOPAD_IN
+  1.590                        clk_pad/U0/U0:Y (r)
+               +     0.000          net: clk_pad/U0/NET1
+  1.590                        clk_pad/U0/U1:A (r)
+               +     1.016          cell: ADLIB:CLKIO
+  2.606                        clk_pad/U0/U1:Y (r)
+               +     1.317          net: clk_c
+  3.923                        uart_0/uart_0/CUARTo0ol/CUARTOO1I[0]:CLK (r)
+               +     1.606          cell: ADLIB:DFN1E1C0
+  5.529                        uart_0/uart_0/CUARTo0ol/CUARTOO1I[0]:Q (f)
+               +     0.857          net: rxdata[0]
+  6.386                        uart_0/uart_0/CUARTo0ol/CUARTOO1I_RNIHGCM[0]:A (f)
+               +     1.450          cell: ADLIB:NOR2B
+  7.836                        uart_0/uart_0/CUARTo0ol/CUARTOO1I_RNIHGCM[0]:Y (f)
+               +     0.422          net: uart_0/uart_0/CUARTo0ol/un27_state_ns_1
+  8.258                        uart_0/uart_0/CUARTo0ol/CUARTOO1I_0_RNI46OM_0[2]:C (f)
+               +     1.181          cell: ADLIB:NOR3C
+  9.439                        uart_0/uart_0/CUARTo0ol/CUARTOO1I_0_RNI46OM_0[2]:Y (f)
+               +     0.333          net: uart_0/uart_0/CUARTo0ol/un16_state_ns_4
+  9.772                        uart_0/uart_0/CUARTo0ol/CUARTOO1I_0_RNIOSGD1[2]:B (f)
+               +     1.361          cell: ADLIB:NOR2B
+  11.133                       uart_0/uart_0/CUARTo0ol/CUARTOO1I_0_RNIOSGD1[2]:Y (f)
+               +     0.977          net: un16_state_ns
+  12.110                       curpos_RNIMTVD1_0[4]:B (f)
+               +     1.203          cell: ADLIB:NOR2A
+  13.313                       curpos_RNIMTVD1_0[4]:Y (r)
+               +     0.301          net: curpos_1_sqmuxa_m1_e_0
+  13.614                       uart_0/uart_0/CUARTo0ol/CUARTOO1I_0_RNIATPV4[2]:A (r)
+               +     1.707          cell: ADLIB:NOR3B
+  15.321                       uart_0/uart_0/CUARTo0ol/CUARTOO1I_0_RNIATPV4[2]:Y (r)
+               +     0.425          net: curpos_1_sqmuxa_1
+  15.746                       uart_0/uart_0/CUARTi01_RNIKJJP5:B (r)
+               +     0.943          cell: ADLIB:NOR2B
+  16.689                       uart_0/uart_0/CUARTi01_RNIKJJP5:Y (r)
+               +     0.285          net: uart_0/uart_0/CUARTi01_RNIKJJP5
+  16.974                       uart_0/uart_0/CUARTi01_RNIGA1GE:A (r)
+               +     0.948          cell: ADLIB:OR3
+  17.922                       uart_0/uart_0/CUARTi01_RNIGA1GE:Y (r)
+               +     0.375          net: un1_curpos_0_sqmuxa
+  18.297                       un1_text_1_0_sqmuxa_2_un1_text_1_0_sqmuxa_1[3]:S (r)
+               +     1.178          cell: ADLIB:MX2
+  19.475                       un1_text_1_0_sqmuxa_2_un1_text_1_0_sqmuxa_1[3]:Y (r)
+               +     0.494          net: un1_text_1_0_sqmuxa_1[3]
+  19.969                       un1_text_1_0_sqmuxa_2_ADD_5x5_fast_I1_G0N:A (r)
+               +     1.009          cell: ADLIB:NOR2B
+  20.978                       un1_text_1_0_sqmuxa_2_ADD_5x5_fast_I1_G0N:Y (r)
+               +     0.704          net: un1_text_1_0_sqmuxa_2_N86
+  21.682                       un1_text_1_0_sqmuxa_2_ADD_5x5_fast_I9_Y:C (r)
+               +     2.053          cell: ADLIB:AO1
+  23.735                       un1_text_1_0_sqmuxa_2_ADD_5x5_fast_I9_Y:Y (r)
+               +     0.377          net: un1_text_1_0_sqmuxa_2_N110
+  24.112                       un1_text_1_0_sqmuxa_2_ADD_5x5_fast_I11_un1_Y:C (r)
+               +     1.601          cell: ADLIB:NOR3C
+  25.713                       un1_text_1_0_sqmuxa_2_ADD_5x5_fast_I11_un1_Y:Y (r)
+               +     0.377          net: un1_text_1_0_sqmuxa_2_I11_un1_Y
+  26.090                       un1_text_1_0_sqmuxa_2_ADD_5x5_fast_I18_Y:A (r)
+               +     2.184          cell: ADLIB:AX1D
+  28.274                       un1_text_1_0_sqmuxa_2_ADD_5x5_fast_I18_Y:Y (f)
+               +     0.512          net: ADD_5x5_fast_I18_Y
+  28.786                       curpos_0[4]:D (f)
+                                    
+  28.786                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          clk
+               +     0.000          Clock source
+  N/C                          clk (r)
+               +     0.000          net: clk
+  N/C                          clk_pad/U0/U0:PAD (r)
+               +     1.590          cell: ADLIB:IOPAD_IN
+  N/C                          clk_pad/U0/U0:Y (r)
+               +     0.000          net: clk_pad/U0/NET1
+  N/C                          clk_pad/U0/U1:A (r)
+               +     1.016          cell: ADLIB:CLKIO
+  N/C                          clk_pad/U0/U1:Y (r)
+               +     1.116          net: clk_c
+  N/C                          curpos_0[4]:CLK (r)
+               -     1.112          Library setup time: ADLIB:DFN1
+  N/C                          curpos_0[4]:D
+
+
+END SET Register to Register
+
+----------------------------------------------------
+
+SET External Setup
+
+Path 1
+  From:                        agl_uart_rxd
+  To:                          uart_0/uart_0/CUARTo0ol/CUARToo0i[2]:D
+  Delay (ns):                  3.366
+  Slack (ns):
+  Arrival (ns):                3.366
+  Required (ns):
+  Setup (ns):                  1.141
+  External Setup (ns):         0.701
+
+
+Expanded Path 1
+  From: agl_uart_rxd
+  To: uart_0/uart_0/CUARTo0ol/CUARToo0i[2]:D
+  data required time                             N/C
+  data arrival time                          -   3.366
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        agl_uart_rxd (r)
+               +     0.000          net: agl_uart_rxd
+  0.000                        agl_uart_rxd_pad/U0/U0:PAD (r)
+               +     1.590          cell: ADLIB:IOPAD_IN
+  1.590                        agl_uart_rxd_pad/U0/U0:Y (r)
+               +     0.000          net: agl_uart_rxd_pad/U0/NET1
+  1.590                        agl_uart_rxd_pad/U0/U1:YIN (r)
+               +     0.251          cell: ADLIB:IOIN_IB
+  1.841                        agl_uart_rxd_pad/U0/U1:Y (r)
+               +     1.525          net: agl_uart_rxd_c
+  3.366                        uart_0/uart_0/CUARTo0ol/CUARToo0i[2]:D (r)
+                                    
+  3.366                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          clk
+               +     0.000          Clock source
+  N/C                          clk (r)
+               +     0.000          net: clk
+  N/C                          clk_pad/U0/U0:PAD (r)
+               +     1.590          cell: ADLIB:IOPAD_IN
+  N/C                          clk_pad/U0/U0:Y (r)
+               +     0.000          net: clk_pad/U0/NET1
+  N/C                          clk_pad/U0/U1:A (r)
+               +     1.016          cell: ADLIB:CLKIO
+  N/C                          clk_pad/U0/U1:Y (r)
+               +     1.200          net: clk_c
+  N/C                          uart_0/uart_0/CUARTo0ol/CUARToo0i[2]:CLK (r)
+               -     1.141          Library setup time: ADLIB:DFN1E1C0
+  N/C                          uart_0/uart_0/CUARTo0ol/CUARToo0i[2]:D
+
+
+END SET External Setup
+
+----------------------------------------------------
+
+SET Clock to Output
+
+Path 1
+  From:                        curpos[2]:CLK
+  To:                          sda
+  Delay (ns):                  44.477
+  Slack (ns):
+  Arrival (ns):                48.219
+  Required (ns):
+  Clock to Out (ns):           48.219
+
+Path 2
+  From:                        curpos[1]:CLK
+  To:                          sda
+  Delay (ns):                  43.305
+  Slack (ns):
+  Arrival (ns):                47.047
+  Required (ns):
+  Clock to Out (ns):           47.047
+
+Path 3
+  From:                        curpos[0]:CLK
+  To:                          sda
+  Delay (ns):                  42.832
+  Slack (ns):
+  Arrival (ns):                46.588
+  Required (ns):
+  Clock to Out (ns):           46.588
+
+Path 4
+  From:                        curpos[3]:CLK
+  To:                          sda
+  Delay (ns):                  40.767
+  Slack (ns):
+  Arrival (ns):                44.509
+  Required (ns):
+  Clock to Out (ns):           44.509
+
+Path 5
+  From:                        display0/address[3]:CLK
+  To:                          sda
+  Delay (ns):                  39.631
+  Slack (ns):
+  Arrival (ns):                43.455
+  Required (ns):
+  Clock to Out (ns):           43.455
+
+
+Expanded Path 1
+  From: curpos[2]:CLK
+  To: sda
+  data required time                             N/C
+  data arrival time                          -   48.219
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        clk
+               +     0.000          Clock source
+  0.000                        clk (r)
+               +     0.000          net: clk
+  0.000                        clk_pad/U0/U0:PAD (r)
+               +     1.590          cell: ADLIB:IOPAD_IN
+  1.590                        clk_pad/U0/U0:Y (r)
+               +     0.000          net: clk_pad/U0/NET1
+  1.590                        clk_pad/U0/U1:A (r)
+               +     1.016          cell: ADLIB:CLKIO
+  2.606                        clk_pad/U0/U1:Y (r)
+               +     1.136          net: clk_c
+  3.742                        curpos[2]:CLK (r)
+               +     1.049          cell: ADLIB:DFN1
+  4.791                        curpos[2]:Q (r)
+               +     5.075          net: curpos[2]
+  9.866                        un15_curpos_I_10:C (r)
+               +     1.192          cell: ADLIB:OR3
+  11.058                       un15_curpos_I_10:Y (r)
+               +     0.301          net: un15_curpos_U1_DWACT_FDEC_E[0]
+  11.359                       un15_curpos_I_12:B (r)
+               +     2.318          cell: ADLIB:AX1B
+  13.677                       un15_curpos_I_12:Y (r)
+               +     0.380          net: I_12_1
+  14.057                       char_rom0/data4_1:B (r)
+               +     1.205          cell: ADLIB:XA1A
+  15.262                       char_rom0/data4_1:Y (r)
+               +     0.298          net: char_rom0/data4_1
+  15.560                       char_rom0/data4_6:A (r)
+               +     1.706          cell: ADLIB:NOR3A
+  17.266                       char_rom0/data4_6:Y (r)
+               +     0.358          net: char_rom0/data4_6
+  17.624                       char_rom0/data4:A (r)
+               +     1.139          cell: ADLIB:NOR3C
+  18.763                       char_rom0/data4:Y (r)
+               +     5.707          net: data4
+  24.470                       display0/data[4]:A (r)
+               +     2.015          cell: ADLIB:OA1B
+  26.485                       display0/data[4]:Y (r)
+               +     2.056          net: display0/data[4]
+  28.541                       display0/bytecount_RNIV9BT4D[3]:B (r)
+               +     1.342          cell: ADLIB:AO1A
+  29.883                       display0/bytecount_RNIV9BT4D[3]:Y (r)
+               +     0.377          net: display0/data_i2c_1[4]
+  30.260                       display0/bytecount_RNIO0666D[0]:C (r)
+               +     1.546          cell: ADLIB:AO1A
+  31.806                       display0/bytecount_RNIO0666D[0]:Y (r)
+               +     0.377          net: display0/data_i2c[4]
+  32.183                       display0/i2c0/databit_RNIPEKFDO[2]:B (r)
+               +     1.342          cell: ADLIB:MX2
+  33.525                       display0/i2c0/databit_RNIPEKFDO[2]:Y (r)
+               +     1.301          net: display0/i2c0/N_612
+  34.826                       display0/i2c0/databit_RNIU3T52D1[1]:A (r)
+               +     1.335          cell: ADLIB:MX2
+  36.161                       display0/i2c0/databit_RNIU3T52D1[1]:Y (r)
+               +     0.380          net: display0/i2c0/N_614
+  36.541                       display0/i2c0/databit_RNIOF7LDS2[0]:A (r)
+               +     1.194          cell: ADLIB:MX2
+  37.735                       display0/i2c0/databit_RNIOF7LDS2[0]:Y (r)
+               +     1.565          net: display0/i2c0/sda_4
+  39.300                       display0/i2c0/addrbit_RNIFV7IFS2[1]:A (r)
+               +     1.296          cell: ADLIB:AO1
+  40.596                       display0/i2c0/addrbit_RNIFV7IFS2[1]:Y (r)
+               +     0.377          net: display0/i2c0/un2_sda_1
+  40.973                       display0/i2c0/state_RNI3UN6HS2[6]:C (r)
+               +     1.546          cell: ADLIB:AO1A
+  42.519                       display0/i2c0/state_RNI3UN6HS2[6]:Y (r)
+               +     1.547          net: state_RNI3UN6HS2[6]
+  44.066                       sda_pad/U0/U1:D (r)
+               +     1.371          cell: ADLIB:IOTRI_OB_EB
+  45.437                       sda_pad/U0/U1:DOUT (r)
+               +     0.000          net: sda_pad/U0/NET1
+  45.437                       sda_pad/U0/U0:D (r)
+               +     2.782          cell: ADLIB:IOPAD_TRI
+  48.219                       sda_pad/U0/U0:PAD (r)
+               +     0.000          net: sda_0
+  48.219                       sda (r)
+                                    
+  48.219                       data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          clk
+               +     0.000          Clock source
+  N/C                          clk (r)
+                                    
+  N/C                          sda (r)
+
+
+END SET Clock to Output
+
+----------------------------------------------------
+
+SET Register to Asynchronous
+
+Path 1
+  From:                        reset:CLK
+  To:                          display0/state[1]:PRE
+  Delay (ns):                  4.562
+  Slack (ns):
+  Arrival (ns):                8.280
+  Required (ns):
+  Recovery (ns):               0.235
+  Minimum Period (ns):         4.766
+  Skew (ns):                   -0.031
+
+Path 2
+  From:                        reset:CLK
+  To:                          uart_0/uart_0/CUARTliOL/CUARToi[0]:CLR
+  Delay (ns):                  4.541
+  Slack (ns):
+  Arrival (ns):                8.259
+  Required (ns):
+  Recovery (ns):               0.235
+  Minimum Period (ns):         4.763
+  Skew (ns):                   -0.013
+
+Path 3
+  From:                        reset:CLK
+  To:                          display0/address[0]:PRE
+  Delay (ns):                  4.524
+  Slack (ns):
+  Arrival (ns):                8.242
+  Required (ns):
+  Recovery (ns):               0.235
+  Minimum Period (ns):         4.733
+  Skew (ns):                   -0.026
+
+Path 4
+  From:                        reset:CLK
+  To:                          display0/address[6]:CLR
+  Delay (ns):                  4.524
+  Slack (ns):
+  Arrival (ns):                8.242
+  Required (ns):
+  Recovery (ns):               0.235
+  Minimum Period (ns):         4.733
+  Skew (ns):                   -0.026
+
+Path 5
+  From:                        reset:CLK
+  To:                          uart_0/uart_0/CUARTliOL/CUARTLL:CLR
+  Delay (ns):                  4.685
+  Slack (ns):
+  Arrival (ns):                8.403
+  Required (ns):
+  Recovery (ns):               0.235
+  Minimum Period (ns):         4.730
+  Skew (ns):                   -0.190
+
+
+Expanded Path 1
+  From: reset:CLK
+  To: display0/state[1]:PRE
+  data required time                             N/C
+  data arrival time                          -   8.280
+  slack                                          N/C
+  ________________________________________________________
+  Data arrival time calculation
+  0.000                        clk
+               +     0.000          Clock source
+  0.000                        clk (r)
+               +     0.000          net: clk
+  0.000                        clk_pad/U0/U0:PAD (r)
+               +     1.590          cell: ADLIB:IOPAD_IN
+  1.590                        clk_pad/U0/U0:Y (r)
+               +     0.000          net: clk_pad/U0/NET1
+  1.590                        clk_pad/U0/U1:A (r)
+               +     1.016          cell: ADLIB:CLKIO
+  2.606                        clk_pad/U0/U1:Y (r)
+               +     1.112          net: clk_c
+  3.718                        reset:CLK (r)
+               +     1.049          cell: ADLIB:DFN1
+  4.767                        reset:Q (r)
+               +     0.330          net: reset
+  5.097                        reset_RNI3JG:A (r)
+               +     1.982          cell: ADLIB:CLKINT
+  7.079                        reset_RNI3JG:Y (r)
+               +     1.201          net: reset_c_c
+  8.280                        display0/state[1]:PRE (r)
+                                    
+  8.280                        data arrival time
+  ________________________________________________________
+  Data required time calculation
+  N/C                          clk
+               +     0.000          Clock source
+  N/C                          clk (r)
+               +     0.000          net: clk
+  N/C                          clk_pad/U0/U0:PAD (r)
+               +     1.590          cell: ADLIB:IOPAD_IN
+  N/C                          clk_pad/U0/U0:Y (r)
+               +     0.000          net: clk_pad/U0/NET1
+  N/C                          clk_pad/U0/U1:A (r)
+               +     1.016          cell: ADLIB:CLKIO
+  N/C                          clk_pad/U0/U1:Y (r)
+               +     1.143          net: clk_c
+  N/C                          display0/state[1]:CLK (r)
+               -     0.235          Library recovery time: ADLIB:DFN1P0
+  N/C                          display0/state[1]:PRE
+
+
+END SET Register to Asynchronous
+
+----------------------------------------------------
+
+SET External Recovery
+
+No Path
+
+END SET External Recovery
+
+----------------------------------------------------
+
+SET Asynchronous to Register
+
+No Path
+
+END SET Asynchronous to Register
+
+----------------------------------------------------
+
+Path set Pin to Pin
+
+SET Input to Output
+
+No Path
+
+END SET Input to Output
+
+----------------------------------------------------
+
+Path set User Sets
+

@@ -1,0 +1,29 @@
+@N: MF249 |Running in 32-bit mode.
+@N: MF667 |Clock conversion disabled 
+@N: MF176 |Default generator successful 
+@N: MF239 :"c:\users\aaron\desktop\fpga2\fpga\hdl\top.vhd":403:18:403:40|Found 9-bit decrementor, 'un2_char\.un2_char[32:24]'
+@N: MF176 |Default generator successful 
+@N: MF239 :"c:\users\aaron\desktop\fpga2\fpga\hdl\top.vhd":290:16:290:25|Found 5-bit decrementor, 'un15_curpos[28:32]'
+@N: MO106 :"c:\users\aaron\desktop\fpga2\fpga\hdl\display.vhd":284:25:284:30|Found ROM, 'data_i2c_1[7:0]', 20 words by 8 bits 
+@N: MF238 :"c:\users\aaron\desktop\fpga2\fpga\hdl\i2c.vhd":178:14:178:24|Found 7-bit incrementor, 'un5_counter[6:0]'
+@N: MO106 :"c:\users\aaron\desktop\fpga2\fpga\hdl\char_rom.vhd":689:9:689:16|Found ROM, 'data_1[7:0]', 552 words by 8 bits 
+@N: MF176 |Default generator successful 
+@N: BN362 :"c:\users\aaron\desktop\fpga2\fpga\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\tx_async.vhd":221:0:221:1|Removing sequential instance CUARTlio0 of view:PrimLib.dffr(prim) in hierarchy view:coreuart_lib.uart_uart_0_TX_ASync(cuarti1) because there are no references to its outputs 
+@N: BN362 :"c:\users\aaron\desktop\fpga2\fpga\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\rx_async.vhd":245:0:245:1|Removing sequential instance CUARTi0ii[8] of view:PrimLib.dffr(prim) in hierarchy view:coreuart_lib.uart_uart_0_Rx_ASYNC(cuarti1) because there are no references to its outputs 
+@N: BN362 :"c:\users\aaron\desktop\fpga2\fpga\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\rx_async.vhd":156:0:156:1|Removing sequential instance uart_0.uart_0.CUARTo0ol.CUARTli0i of view:PrimLib.dffr(prim) in hierarchy view:work.top(top1) because there are no references to its outputs 
+@N: BN362 :"c:\users\aaron\desktop\fpga2\fpga\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\rx_async.vhd":172:0:172:1|Removing sequential instance uart_0.uart_0.CUARTo0ol.CUARTO00i of view:PrimLib.dffr(prim) in hierarchy view:work.top(top1) because there are no references to its outputs 
+@N: BN362 :"c:\users\aaron\desktop\fpga2\fpga\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\rx_async.vhd":196:0:196:1|Removing sequential instance uart_0.uart_0.CUARTo0ol.CUARTL00I of view:PrimLib.dffr(prim) in hierarchy view:work.top(top1) because there are no references to its outputs 
+@N: BN362 :"c:\users\aaron\desktop\fpga2\fpga\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\rx_async.vhd":196:0:196:1|Removing sequential instance uart_0.uart_0.CUARTo0ol.CUARTlo0i of view:PrimLib.dffr(prim) in hierarchy view:work.top(top1) because there are no references to its outputs 
+@N: BN362 :"c:\users\aaron\desktop\fpga2\fpga\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\rx_async.vhd":292:0:292:1|Removing sequential instance uart_0.uart_0.CUARTo0ol.CUARTii0i of view:PrimLib.dffr(prim) in hierarchy view:work.top(top1) because there are no references to its outputs 
+@N: BN362 :"c:\users\aaron\desktop\fpga2\fpga\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\rx_async.vhd":325:0:325:1|Removing sequential instance uart_0.uart_0.CUARTo0ol.CUARTLO1I of view:PrimLib.dffs(prim) in hierarchy view:work.top(top1) because there are no references to its outputs 
+@N: BN362 :"c:\users\aaron\desktop\fpga2\fpga\component\work\uart\uart_0\rtl\vhdl\core_obfuscated\rx_async.vhd":325:0:325:1|Removing sequential instance uart_0.uart_0.CUARTo0ol.CUARTo10I of view:PrimLib.dffr(prim) in hierarchy view:work.top(top1) because there are no references to its outputs 
+@N: FP130 |Promoting Net clk_c on CLKBUF  clk_pad 
+@N: FP130 |Promoting Net reset_c_c on CLKINT  I_595 
+@N: FP130 |Promoting Net un28_state_ns on CLKINT  I_596 
+@N: FP130 |Promoting Net char_rom0.un87_data[5] on CLKINT  I_597 
+@N: FP130 |Promoting Net un1_state_ns_9_1 on CLKINT  I_598 
+@N: FP130 |Promoting Net un21_char_0_0.N_14_i on CLKINT  I_599 
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.

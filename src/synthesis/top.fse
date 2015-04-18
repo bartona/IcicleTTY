@@ -1,0 +1,106 @@
+
+fsm_encoding {1924412445} onehot
+
+fsm_state_encoding {1924412445} onreset {000001}
+
+fsm_state_encoding {1924412445} drawintro {000010}
+
+fsm_state_encoding {1924412445} waitforinput {000100}
+
+fsm_state_encoding {1924412445} getdata {001000}
+
+fsm_state_encoding {1924412445} echodata {010000}
+
+fsm_state_encoding {1924412445} drawscreen {100000}
+
+fsm_registers {1924412445} {state[0]}  {state[1]}  {state[2]}  {state[3]}  {state[4]}  {state[5]} 
+
+fsm_encoding {1615611562} onehot
+
+fsm_state_encoding {1615611562} waitfordraw {000001}
+
+fsm_state_encoding {1615611562} loadpacket {000010}
+
+fsm_state_encoding {1615611562} loadbyte {000100}
+
+fsm_state_encoding {1615611562} holdbyte0 {001000}
+
+fsm_state_encoding {1615611562} holdbyte1 {010000}
+
+fsm_state_encoding {1615611562} finishburst {100000}
+
+fsm_registers {1615611562} {state[0]}  {state[1]}  {state[2]}  {state[3]}  {state[4]}  {state[5]} 
+
+fsm_encoding {8881881} onehot
+
+fsm_state_encoding {8881881} idle {0000000000000000000000}
+
+fsm_state_encoding {8881881} start0 {0000000000000000000011}
+
+fsm_state_encoding {8881881} start1 {0000000000000000000101}
+
+fsm_state_encoding {8881881} start2 {0000000000000000001001}
+
+fsm_state_encoding {8881881} addr0 {0000000000000000010001}
+
+fsm_state_encoding {8881881} addr1 {0000000000000000100001}
+
+fsm_state_encoding {8881881} addr2 {0000000000000001000001}
+
+fsm_state_encoding {8881881} write0 {0000000000000010000001}
+
+fsm_state_encoding {8881881} write1 {0000000000000100000001}
+
+fsm_state_encoding {8881881} write2 {0000000000001000000001}
+
+fsm_state_encoding {8881881} ack0 {0000000000010000000001}
+
+fsm_state_encoding {8881881} ack1 {0000000000100000000001}
+
+fsm_state_encoding {8881881} ack2 {0000000001000000000001}
+
+fsm_state_encoding {8881881} send_byte0 {0000000010000000000001}
+
+fsm_state_encoding {8881881} send_byte1 {0000000100000000000001}
+
+fsm_state_encoding {8881881} send_byte2 {0000001000000000000001}
+
+fsm_state_encoding {8881881} send_byte_ack0 {0000010000000000000001}
+
+fsm_state_encoding {8881881} send_byte_ack1 {0000100000000000000001}
+
+fsm_state_encoding {8881881} send_byte_ack2 {0001000000000000000001}
+
+fsm_state_encoding {8881881} stop0 {0010000000000000000001}
+
+fsm_state_encoding {8881881} stop1 {0100000000000000000001}
+
+fsm_state_encoding {8881881} stop2 {1000000000000000000001}
+
+fsm_registers {8881881} {state[0]}  {state[1]}  {state[2]}  {state[3]}  {state[4]}  {state[5]}  {state[6]}  {state[7]}  {state[8]}  {state[9]}  {state[10]}  {state[11]}  {state[12]}  {state[13]}  {state[14]}  {state[15]}  {state[16]}  {state[17]}  {state[18]}  {state[19]}  {state[20]}  {state_i[21]} 
+
+fsm_encoding {1010501053} onehot
+
+fsm_state_encoding {1010501053} 00000000000000000000000000000000 {000001}
+
+fsm_state_encoding {1010501053} 00000000000000000000000000000001 {000010}
+
+fsm_state_encoding {1010501053} 00000000000000000000000000000010 {000100}
+
+fsm_state_encoding {1010501053} 00000000000000000000000000000011 {001000}
+
+fsm_state_encoding {1010501053} 00000000000000000000000000000100 {010000}
+
+fsm_state_encoding {1010501053} 00000000000000000000000000000101 {100000}
+
+fsm_registers {1010501053} {CUARTolo0[0]}  {CUARTolo0[1]}  {CUARTolo0[2]}  {CUARTolo0[3]}  {CUARTolo0[4]}  {CUARTolo0[5]} 
+
+fsm_encoding {1119601964} sequential
+
+fsm_state_encoding {1119601964} cuarti00 {00}
+
+fsm_state_encoding {1119601964} cuartliii {01}
+
+fsm_state_encoding {1119601964} cuartiiii {10}
+
+fsm_registers {1119601964} {CUARToool[1]}  {CUARToool[0]} 
